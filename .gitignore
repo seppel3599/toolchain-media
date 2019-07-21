@@ -189,4 +189,11 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#ideas and bose folder
+_ideas_base/
+
+#mookup folder
+_mookups/
+
+
 # End of https://www.gitignore.io/api/adobe,macos,windows,intellij,webstorm
