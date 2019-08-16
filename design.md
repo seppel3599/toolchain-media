@@ -8,10 +8,16 @@ Ideen für Icons
 
 ### Fonts
 
-Logo und Schriftzug-Font:
+Die ausgesuchten Schriftarten liegen auch als 
 
-[Google Fonts](https://fonts.google.com/specimen/Saira+Semi+Condensed)
+#### Logo und Schriftzug-Font:
 
-Fließtext:
+Saira Semi Condensed: [Google Fonts](https://fonts.google.com/specimen/Saira+Semi+Condensed)
 
-[Google Fonts](https://fonts.google.com/specimen/Noto+Sans)
+#### Überschriten:
+
+Noto Sans: [Google Fonts](https://fonts.google.com/specimen/Noto+Sans)
+
+#### Fließtext:
+
+Noto Serif: [Google Fonts](https://fonts.google.com/specimen/Noto+Serif)
