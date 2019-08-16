@@ -1,6 +1,6 @@
 # Toolchain
 
-Gliederung:
+## Gliederung:
 
 1. Titel
 2. Skizze/Beschreibung
@@ -14,11 +14,59 @@ Gliederung:
 
 
 
-1. Titel
+### 1. Titel
 
 Toolchain: Name von der Funktion. Das Verketten von Werkzeugen
 
 
 
-2. Skizze und Beschreibung
+### 2. Skizze und Beschreibung
+
+Ein Werkzeug zum Organisieren der in einem Unternehmen genutzten Software, Webseiten und anderer Tools.
+OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
+
+
+
+### 3. Anforderungen (Lastenheft)
+
+#### Mindestumfang:
+
+- Web-App mit Laravel:
+  - erstellen, editieren und löschen von Einträgen für Werkzeuge mit Titel, Beschreibung, Bildern, Logos die jeder Nutzer selber anlegen kann
+  - Globale Übersicht, kategorisiert
+  - Exportfunktion
+
+#### mögliche Erweiterungen:
+
+- Login mit Single Sign-On (Google)
+- completly responsive 
+- Integration einer personalisierten Suchmachine mit persönlichen Informationen (Cyberduck, Google)
+
+
+
+### 4. Team-Mitglieder
+
+- Renick Büttner
+  - Teamleiter
+  - Webdevelopment
+  - Backend
+- Jonas Wagner
+  - Webdevelopment
+  - Frontend
+- Sebastian Walter
+  - Grafiken (Diagramme, Icons, ...)
+  - Design (Präsentation, Mini-CD)
+  - Dokumentation
+
+### 5. Architektur 
+
+@Renick: Bitte **kurz** die Architektur beschreiben!
+
+### 6. Timeline, Milestones
+
+empty
+
+### 7. Bug-Liste
+
+Wenn es welche gibt! ;)
 
