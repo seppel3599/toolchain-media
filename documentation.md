@@ -14,3 +14,11 @@ Gliederung:
 
 
 
+1. Titel
+
+Toolchain: Name von der Funktion. Das Verketten von Werkzeugen
+
+
+
+2. Skizze und Beschreibung
+
