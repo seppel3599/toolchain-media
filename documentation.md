@@ -31,6 +31,8 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 
 ![Toolchain_Mookup_3](/Users/sebastianwalter/WebstormProjects/github/toolchain-media/mookups/Toolchain_Mookup_3.svg)
 
+
+
 ### 3. Anforderungen (Lastenheft)
 
 #### Mindestumfang:
@@ -62,13 +64,58 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
   - Design (Präsentation, Mini-CD)
   - Dokumentation
 
+#### genaue Aufgabenverteilung:
+
+- Sebastian Walter
+  - Entwurf und Umsetzung der Icons
+    - Navigation
+    - ??Schnelleditierungsmenü
+    - 
+  - Mini-CD
+    - Schriftarten festlegen
+    - Farbtheme festlegen
+    - Logo und Schriftzug entwerfen und umsetzen
+  - Erstellen der Dokumentation
+    - Schreiben
+    - Formatierung und Layouten
+  - Erstellen der Präsentation
+    - Schreiben
+    - Formatierung und Layouten
+- Renick Büttner
+  - Git-Repo
+    - Initialisieren und Verwalten
+  - Projektmangament - Webdev
+    - Aufgaben Definition und Verteilung
+  - Entwurf - Prototyp
+  - Projektidee
+- Jonas Wagner
+  - Frontend
+    - CSS und JS
+
+
+
 ### 5. Architektur 
 
 @Renick: Bitte **kurz** die Architektur beschreiben!
 
+
+
 ### 6. Timeline, Milestones
 
-
+- Anfang Mai: Projektidee durch Renick 
+- Anfang Mai: Projektentwicklung und Definition durch alle
+- Anfang Mai: Apsrache mit Professor Hara und Input für die Idee
+- Anfang Mai: Github-Repository erstellen und initalisieren durch Renick ⇒ [Toolchain](https://github.com/renickbuettner/toolchain/issues)
+- Mitte Mai: Entwurf von Mookups
+- Mitte Mai: Definition der Anforderungen -> kleines Lastenheft
+- Mitte Mai: Erste Aufgaben werden in Notion definitiert und verteilt
+- Mitte Mai: Abgabe der Projektidee an Professor Hara
+- Erste Commits durch Renick
+  - Erstellen der Login-Maske
+- Erstellen eines eigenen Repositories für die Medieninhalte, Dokumentation und Informationen zum Design durch Sebastian ⇒ [Toolchain-Media](https://github.com/seppel3599/toolchain-media)
+- Längere Pause: durch Prüfungen
+- Juli: Entwurf und Umsetzung der Icons durch Sebastian
+- Juli: Fortsetzen der Arbeit an der Web-App
 
 ### 7. Bug-Liste
 
