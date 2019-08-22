@@ -1,12 +1,6 @@
 ### Ideas/Brainstorming:
 
-### Icons
-
-Ideen für Icons
-
-[Webapp Icon #187291 - Free Icons Library](https://icon-library.net/icon/webapp-icon-22.html)
-
-### Fonts
+## Fonts
 
 Die ausgesuchten Schriftarten liegen auch als 
 
@@ -21,3 +15,10 @@ Noto Sans: [Google Fonts](https://fonts.google.com/specimen/Noto+Sans)
 #### Fließtext:
 
 Noto Serif: [Google Fonts](https://fonts.google.com/specimen/Noto+Serif)
+
+
+## Icons
+
+Ideen für Icons
+
+[Webapp Icon #187291 - Free Icons Library](https://icon-library.net/icon/webapp-icon-22.html)
