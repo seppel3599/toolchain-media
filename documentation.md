@@ -116,6 +116,8 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 - Längere Pause: durch Prüfungen
 - Juli: Entwurf und Umsetzung der Icons durch Sebastian
 - Juli: Fortsetzen der Arbeit an der Web-App
+- Anfang August: Schreiben der Dokumentation
+- 
 
 ### 7. Bug-Liste
 
