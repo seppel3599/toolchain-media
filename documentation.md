@@ -5,10 +5,11 @@
 1. Titel
 2. Skizze/Beschreibung
 3. Anforderungen (Lastenheft)
-4. Team-Mitglieder und Entwicklung (insbesondere Teamleiter)
-5. Archiketur (kurz!)
-6. Timeline Milestones
-7. Bug-Liste (optional)
+4. allgemein zum Projekt
+5. Team-Mitglieder und Entwicklung (insbesondere Teamleiter)
+6. Archiketur (kurz!)
+7. Timeline Milestones
+8. Bug-Liste (optional)
 
 
 
@@ -47,8 +48,15 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 - Integration einer personalisierten Suchmachine mit persönlichen Informationen (Cyberduck, Google)
 
 
+### 4. allgemein zum Projekt
 
-### 4. Team-Mitglieder
+- WebApp mit dem Laravel-Framework
+- GitHub-Repo für die WebApp: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain)
+- GitHub-Repo für Dokumentation, CD, Icons, Medien: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
+
+
+
+### 5. Team-Mitglieder
 
 - Renick Büttner
   - Teamleiter
@@ -91,13 +99,13 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 
 
 
-### 5. Architektur 
+### 6. Architektur 
 
 @Renick: Bitte **kurz** die Architektur beschreiben!
 
 
 
-### 6. Timeline, Milestones
+### 7. Timeline, Milestones
 
 - Anfang Mai: Projektidee durch Renick 
 - Anfang Mai: Projektentwicklung und Definition durch alle
@@ -116,7 +124,7 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 - Anfang August: Schreiben der Dokumentation
 - 
 
-### 7. Bug-Liste
+### 8. Bug-Liste
 
 Wenn es welche gibt! ;)
 

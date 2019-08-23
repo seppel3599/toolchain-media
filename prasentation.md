@@ -5,13 +5,16 @@
 ###Sprechanteile
 
 - Renick Büttner
-  - Idee
-  - Projektmanagement
-  - Backend
+  - Idee und Mutivation
 - Jonas Wagner
-  - Umsetzung
-  - Frontend
+  - Probleme
 - Sebastian Walter
-  - Design
-  - Medien
-  - Icons
+  - Was haben wir gelernt?
+  
+  
+  What?
+  Who?
+  How?
+  Any problems?
+  Learnings?
+  Overview.
