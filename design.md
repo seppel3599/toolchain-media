@@ -1,8 +1,14 @@
-### Ideas/Brainstorming:
+# Design and CD for Toolchain
+
+## Lettering and Logo
+
+.ai unter seppel3599/toolchain-media/toolchain
+
+.svg unter seppel3599/toolchain-media/_svg-export/_toolchain
 
 ## Fonts
 
-Die ausgesuchten Schriftarten liegen auch als 
+Die ausgesuchten Schriftarten liegen auch als .ttf unter seppel3599/toolchain-media/fonts
 
 #### Logo und Schriftzug-Font:
 
@@ -16,8 +22,18 @@ Noto Sans: [Google Fonts](https://fonts.google.com/specimen/Noto+Sans)
 
 Noto Serif: [Google Fonts](https://fonts.google.com/specimen/Noto+Serif)
 
-
 ## Icons
+
+.ai unter seppel3599/toolchain-media/icons
+
+.svg unter seppel3599/toolchain-media/_svg-export/_icons
+
+## Color
+
+Color-Selection-Chart liegt unter seppel3599/toolchain-media/color
+
+## Ideas/Brainstorming:
+### Icons
 
 Ideen für Icons
 

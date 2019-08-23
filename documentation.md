@@ -9,8 +9,6 @@
 5. Archiketur (kurz!)
 6. Timeline Milestones
 7. Bug-Liste (optional)
-8. Implementierung (nicht ausgedruckt!!; nur in ZIP)
-9. Binary
 
 
 
@@ -25,11 +23,11 @@ Toolchain: Name von der Funktion. Das Verketten von Werkzeugen
 Ein Werkzeug zum Organisieren der in einem Unternehmen genutzten Software, Webseiten und anderer Tools.
 OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 
-![Toolchain_Mookup_1](/Users/sebastianwalter/WebstormProjects/github/toolchain-media/mookups/Toolchain_Mookup_1.svg)
+![Toolchain_Mookup_1](mookups/Toolchain_Mookup_1.svg)
 
-![Toolchain_Mookup_2](/Users/sebastianwalter/WebstormProjects/github/toolchain-media/mookups/Toolchain_Mookup_2.svg)
+![Toolchain_Mookup_2](mookups/Toolchain_Mookup_2.svg)
 
-![Toolchain_Mookup_3](/Users/sebastianwalter/WebstormProjects/github/toolchain-media/mookups/Toolchain_Mookup_3.svg)
+![Toolchain_Mookup_3](mookups/Toolchain_Mookup_3.svg)
 
 
 
@@ -70,7 +68,6 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
   - Entwurf und Umsetzung der Icons
     - Navigation
     - ??Schnelleditierungsmenü
-    - 
   - Mini-CD
     - Schriftarten festlegen
     - Farbtheme festlegen
