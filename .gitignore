@@ -192,8 +192,5 @@ $RECYCLE.BIN/
 #ideas and bose folder
 ideas_base/
 
-#mookup folder
-mookups/
-
 
 # End of https://www.gitignore.io/api/adobe,macos,windows,intellij,webstorm

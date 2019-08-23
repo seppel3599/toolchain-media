@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>dashboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="320" height="64" rx="2"></rect>
+        <filter x="-1.9%" y="-9.4%" width="103.8%" height="118.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="4" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.704427083   0 0 0 0 0.704427083   0 0 0 0 0.704427083  0 0 0 0.655539773 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-50.0%" y="-37.5%" width="200.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-30.0%" y="-37.5%" width="160.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-32.6%" y="-37.5%" width="165.8%" height="175.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="280" height="128" rx="4"></rect>
+        <filter x="-3.6%" y="-6.2%" width="107.1%" height="115.6%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.703266531   0 0 0 0 0.703266531   0 0 0 0 0.703266531  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="280" height="128" rx="4"></rect>
+        <filter x="-3.6%" y="-6.2%" width="107.1%" height="115.6%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.703266531   0 0 0 0 0.703266531   0 0 0 0 0.703266531  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="0" y="0" width="280" height="128" rx="4"></rect>
+        <filter x="-3.6%" y="-6.2%" width="107.1%" height="115.6%" filterUnits="objectBoundingBox" id="filter-12">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.703266531   0 0 0 0 0.703266531   0 0 0 0 0.703266531  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-13" x="0" y="0" width="280" height="128" rx="4"></rect>
+        <filter x="-3.6%" y="-6.2%" width="107.1%" height="115.6%" filterUnits="objectBoundingBox" id="filter-14">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.703266531   0 0 0 0 0.703266531   0 0 0 0 0.703266531  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-15" x="0" y="0" width="280" height="128" rx="4"></rect>
+        <filter x="-3.6%" y="-6.2%" width="107.1%" height="115.6%" filterUnits="objectBoundingBox" id="filter-16">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.703266531   0 0 0 0 0.703266531   0 0 0 0 0.703266531  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-17" x="0" y="0" width="280" height="128" rx="4"></rect>
+        <filter x="-3.6%" y="-6.2%" width="107.1%" height="115.6%" filterUnits="objectBoundingBox" id="filter-18">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.703266531   0 0 0 0 0.703266531   0 0 0 0 0.703266531  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-19" x="0" y="0" width="280" height="128" rx="4"></rect>
+        <filter x="-3.6%" y="-6.2%" width="107.1%" height="115.6%" filterUnits="objectBoundingBox" id="filter-20">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.703266531   0 0 0 0 0.703266531   0 0 0 0 0.703266531  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-21" x="0" y="0" width="280" height="128" rx="4"></rect>
+        <filter x="-3.6%" y="-6.2%" width="107.1%" height="115.6%" filterUnits="objectBoundingBox" id="filter-22">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.703266531   0 0 0 0 0.703266531   0 0 0 0 0.703266531  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1440" height="1024"></rect>
+        <g id="Application-copyright" transform="translate(1129.000000, 976.000000)">
+            <g id="Copyright">
+                <g id="fa-solid:user-astronaut" transform="translate(267.000000, 0.000000)" fill-rule="nonzero">
+                    <g id="Icon" fill="#BDBDBD">
+                        <path d="M4,14 L4.84375,14 C6.3875,17.53125 9.9,20 14,20 C18.1,20 21.6125,17.53125 23.15625,14 L24,14 C24.55,14 25,13.55 25,13 L25,7 C25,6.45 24.55,6 24,6 L23.15625,6 C21.6125,2.46875 18.1,0 14,0 C9.9,0 6.3875,2.46875 4.84375,6 L4,6 C3.45,6 3,6.45 3,7 L3,13 C3,13.55 3.45,14 4,14 Z M6.5,8.5 C6.5,7.11875 7.84375,6 9.5,6 L18.5,6 C20.15625,6 21.5,7.11875 21.5,8.5 L21.5,10 C21.5,13.3125 18.8125,16 15.5,16 L12.5,16 C9.1875,16 6.5,13.3125 6.5,10 L6.5,8.5 Z M11,13 L11.75,10.75 L14,10 L11.75,9.25 L11,7 L10.25,9.25 L8,10 L10.25,10.75 L11,13 Z M20.475,20.0875 C18.60625,21.29375 16.3875,22 14,22 C11.6125,22 9.39375,21.29375 7.525,20.0875 C3.30625,20.53125 0,24.0625 0,28.4 L0,29 C0,30.65625 1.34375,32 3,32 L8,32 L8,28 C8,26.89375 8.89375,26 10,26 L18,26 C19.10625,26 20,26.89375 20,28 L20,32 L25,32 C26.65625,32 28,30.65625 28,29 L28,28.4 C28,24.0625 24.69375,20.53125 20.475,20.0875 Z M17,28 C16.45,28 16,28.45 16,29 C16,29.55 16.45,30 17,30 C17.55,30 18,29.55 18,29 C18,28.45 17.55,28 17,28 Z M11,28 C10.45,28 10,28.45 10,29 L10,32 L12,32 L12,29 C12,28.45 11.55,28 11,28 Z" id="Icon-Shape"></path>
+                    </g>
+                    <rect id="ViewBox" x="0" y="0" width="28" height="32"></rect>
+                </g>
+                <text id="Brought-to-you-by-Jo" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="12" font-weight="400" fill="#BDBDBD">
+                    <tspan x="0" y="21">Brought to you by Jonas, Sebastian &amp; Renick</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Sidebar">
+            <g fill-rule="evenodd" stroke-width="1">
+                <g>
+                    <rect id="Sidebar-background" fill="#2E72CE" x="0" y="0" width="400" height="1024"></rect>
+                    <text id="Toolchain" font-family="LucidaGrande-Bold, Lucida Grande" font-size="32" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="119" y="63">Toolchain</tspan>
+                    </text>
+                    <g id="Help-center-(inactive)" transform="translate(40.000000, 428.000000)">
+                        <text id="Help-center" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="75" y="39">Help center</tspan>
+                        </text>
+                        <g id="fa-solid:question" transform="translate(24.000000, 16.000000)" fill-rule="nonzero">
+                            <g id="Icon" fill="#FFFFFF">
+                                <path d="M12.6263125,0 C7.637625,0 4.4064375,2.0439375 1.869625,5.689125 C1.4094375,6.350375 1.5513125,7.257 2.19325,7.74375 L4.889375,9.7880625 C5.5376875,10.279625 6.460125,10.1646875 6.9676875,9.5288125 C8.53325,7.5675 9.6945625,6.43825 12.14,6.43825 C14.06275,6.43825 16.441,7.6756875 16.441,9.5401875 C16.441,10.9496875 15.2774375,11.6735625 13.3789375,12.7379375 C11.165,13.9791875 8.23525,15.5239375 8.23525,19.38825 L8.23525,20 C8.23525,20.8284375 8.9068125,21.5 9.73525,21.5 L14.2646875,21.5 C15.093125,21.5 15.7646875,20.8284375 15.7646875,20 L15.7646875,19.6391875 C15.7646875,16.9604375 23.5939375,16.848875 23.5939375,9.6 C23.594,4.141 17.931375,0 12.6263125,0 Z M12,23.3411875 C9.61275,23.3411875 7.6705625,25.283375 7.6705625,27.670625 C7.6705625,30.0578125 9.61275,32 12,32 C14.38725,32 16.3294375,30.0578125 16.3294375,27.6705625 C16.3294375,25.2833125 14.38725,23.3411875 12,23.3411875 Z" id="Icon-Shape"></path>
+                            </g>
+                            <rect id="ViewBox" x="0" y="0" width="24" height="32"></rect>
+                        </g>
+                    </g>
+                    <g id="Request-new-service-(inactive)" transform="translate(62.000000, 380.000000)">
+                        <g id="fa-solid:folder" fill-rule="nonzero">
+                            <g id="Icon" transform="translate(0.000000, 4.000000)" fill="#2E72CE">
+                                <path d="M29,4 L17,4 L13,0 L3,0 C1.343125,0 0,1.343125 0,3 L0,21 C0,22.656875 1.343125,24 3,24 L29,24 C30.656875,24 32,22.656875 32,21 L32,7 C32,5.343125 30.656875,4 29,4 Z" id="Icon-Path"></path>
+                            </g>
+                            <rect id="ViewBox" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                        <text id="Request-approval" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="55" y="23">Request approval </tspan>
+                        </text>
+                        <g id="fa-solid:shield-alt" fill-rule="nonzero">
+                            <g id="Icon" fill="#FFFFFF">
+                                <path d="M29.15625,5.23125 L17.15625,0.23125 C16.4180016,-0.0750052698 15.5882484,-0.0750052698 14.85,0.23125 L2.85,5.23125 C1.73125,5.69375 1,6.7875 1,8 C1,20.40625 8.15625,28.98125 14.84375,31.76875 C15.58125,32.075 16.4125,32.075 17.15,31.76875 C22.50625,29.5375 31,21.83125 31,8 C31,6.7875 30.26875,5.69375 29.15625,5.23125 Z M16.00625,27.89375 L16,4.08125 L26.99375,8.6625 C26.7875,18.125 21.8625,24.98125 16.00625,27.89375 L16.00625,27.89375 Z" id="Icon-Shape"></path>
+                            </g>
+                            <rect id="ViewBox" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                    </g>
+                    <g id="Add-new-service-(inactive)" transform="translate(40.000000, 300.000000)">
+                        <g id="fa-solid:folder" transform="translate(22.000000, 16.000000)" fill-rule="nonzero">
+                            <g id="Icon" transform="translate(0.000000, 4.000000)" fill="#2E72CE">
+                                <path d="M29,4 L17,4 L13,0 L3,0 C1.343125,0 0,1.343125 0,3 L0,21 C0,22.656875 1.343125,24 3,24 L29,24 C30.656875,24 32,22.656875 32,21 L32,7 C32,5.343125 30.656875,4 29,4 Z" id="Icon-Path"></path>
+                            </g>
+                            <rect id="ViewBox" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                        <g id="fa-solid:plus" fill-rule="nonzero">
+                            <g id="Icon" transform="translate(24.000000, 18.000000)" fill="#FFFFFF">
+                                <path d="M26,11 L17,11 L17,2 C17,0.895625 16.104375,0 15,0 L13,0 C11.895625,0 11,0.895625 11,2 L11,11 L2,11 C0.895625,11 0,11.895625 0,13 L0,15 C0,16.104375 0.895625,17 2,17 L11,17 L11,26 C11,27.104375 11.895625,28 13,28 L15,28 C16.104375,28 17,27.104375 17,26 L17,17 L26,17 C27.104375,17 28,16.104375 28,15 L28,13 C28,11.895625 27.104375,11 26,11 Z" id="Icon-Path"></path>
+                            </g>
+                            <rect id="ViewBox" x="24" y="16" width="28" height="32"></rect>
+                        </g>
+                        <text id="Add-a-service" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="77" y="39">Add a service</tspan>
+                        </text>
+                    </g>
+                    <g id="Current-view" transform="translate(40.000000, 236.000000)">
+                        <g id="Rectangle">
+                            <use fill="#F6F6F6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <rect stroke="#B9B9B9" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="319" height="63" rx="2"></rect>
+                        </g>
+                        <g id="fa-solid:folder" transform="translate(24.000000, 16.000000)" fill-rule="nonzero">
+                            <g id="Icon" transform="translate(0.000000, 4.000000)" fill="#2E72CE">
+                                <path d="M29,4 L17,4 L13,0 L3,0 C1.343125,0 0,1.343125 0,3 L0,21 C0,22.656875 1.343125,24 3,24 L29,24 C30.656875,24 32,22.656875 32,21 L32,7 C32,5.343125 30.656875,4 29,4 Z" id="Icon-Path"></path>
+                            </g>
+                            <rect id="ViewBox" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                        <text id="All-services" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#2E72CE">
+                            <tspan x="79" y="39">All services</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <text id="Beat-your-toolchain" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400" fill="#FFFFFF">
+                <tspan x="106" y="95">Beat your toolchain mess</tspan>
+            </text>
+            <g id="fa-solid:tools" stroke-width="1" fill-rule="evenodd" transform="translate(136.000000, 864.000000)">
+                <g id="Icon" fill="#E2E2E2" fill-opacity="0.218586101" fill-rule="nonzero">
+                    <path d="M125.311889,98.7570494 L96.0865909,69.5317512 C90.3213954,63.7665558 81.7110386,62.6434658 74.772838,66.0626509 L48.1680832,39.4578962 L48.1680832,23.9592538 L16.2224115,0 L0.249575561,15.9728359 L24.2088294,47.9185077 L39.7074717,47.9185077 L66.3122265,74.5232624 C62.9179989,81.461463 64.0161313,90.0718199 69.7813268,95.8370153 L99.006625,125.062314 C102.650428,128.706117 108.540411,128.706117 112.159257,125.062314 L125.311889,111.909681 C128.930735,108.265878 128.930735,102.375895 125.311889,98.7570494 L125.311889,98.7570494 Z M83.0337891,56.1545012 C90.0967774,56.1545012 96.7354874,58.8998323 101.726999,63.8913436 L106.568764,68.7331094 C110.512058,67.0110381 114.255692,64.6151127 117.500174,61.3706304 C126.759427,52.1113771 129.904079,39.0835328 126.959088,27.2536512 C126.410022,25.0074712 123.589818,24.233787 121.942619,25.8809857 L103.374197,44.4494074 L86.4280167,41.6292035 L83.6078129,24.683023 L102.176235,6.11460124 C103.823433,4.46740254 103.024791,1.6471987 100.753654,1.07317491 C88.9237723,-1.84685915 75.895928,1.29779292 66.6616323,10.5320887 C59.5487288,17.6449921 56.2044163,27.0290332 56.3791192,36.3881168 L76.8692727,56.8782703 C78.8908348,56.4040767 80.9872695,56.1545012 83.0337891,56.1545012 Z M57.1028883,76.6196972 L42.951954,62.4687629 L4.91663855,100.529036 C-1.32275047,106.768425 -1.32275047,116.876235 4.91663855,123.115624 C11.1560276,129.355013 21.2638378,129.355013 27.5032268,123.115624 L58.3507661,92.2680848 C56.4539918,87.3015312 55.8799681,81.8857415 57.1028883,76.6196972 L57.1028883,76.6196972 Z M16.2224115,117.799665 C12.928014,117.799665 10.232598,115.104249 10.232598,111.809851 C10.232598,108.490496 12.9030565,105.820038 16.2224115,105.820038 C19.5417664,105.820038 22.2122249,108.490496 22.2122249,111.809851 C22.2122249,115.104249 19.5417664,117.799665 16.2224115,117.799665 Z" id="Icon-Shape"></path>
+                </g>
+                <rect id="ViewBox" fill-rule="nonzero" x="0" y="0" width="127.498039" height="127.498039"></rect>
+            </g>
+        </g>
+        <g id="Application-header" transform="translate(448.000000, 32.000000)">
+            <g>
+                <g id="Action-Icons" transform="translate(731.000000, 0.000000)">
+                    <g id="fa-solid:file-csv" filter="url(#filter-3)" fill-rule="nonzero">
+                        <g id="Icon" fill="#2E72CE">
+                            <path d="M14,8.5 L14,0 L1.5,0 C0.66875,0 0,0.66875 0,1.5 L0,30.5 C0,31.33125 0.66875,32 1.5,32 L22.5,32 C23.33125,32 24,31.33125 24,30.5 L24,10 L15.5,10 C14.675,10 14,9.325 14,8.5 Z M8,17.5 C8,17.77625 7.77625,18 7.5,18 L7,18 C6.4475,18 6,18.4475 6,19 L6,21 C6,21.5525 6.4475,22 7,22 L7.5,22 C7.77625,22 8,22.22375 8,22.5 L8,23.5 C8,23.77625 7.77625,24 7.5,24 L7,24 C5.343125,24 4,22.656875 4,21 L4,19 C4,17.343125 5.343125,16 7,16 L7.5,16 C7.77625,16 8,16.22375 8,16.5 L8,17.5 Z M10.766875,24 L10,24 C9.72375,24 9.5,23.77625 9.5,23.5 L9.5,22.5 C9.5,22.22375 9.72375,22 10,22 L10.766875,22 C11.13875,22 11.4175,21.78125 11.4175,21.58625 C11.4175,21.505 11.370625,21.42 11.285,21.34625 L9.916875,20.173125 C9.3875,19.721875 9.08375,19.080625 9.08375,18.414375 C9.08375,17.083125 10.2725,16.000625 11.734375,16.000625 L12.5,16.000625 C12.77625,16.000625 13,16.224375 13,16.500625 L13,17.500625 C13,17.776875 12.77625,18.000625 12.5,18.000625 L11.733125,18.000625 C11.36125,18.000625 11.0825,18.219375 11.0825,18.414375 C11.0825,18.495625 11.129375,18.580625 11.215,18.654375 L12.583125,19.8275 C13.1125,20.27875 13.41625,20.92 13.41625,21.58625 C13.416875,22.916875 12.22875,24 10.766875,24 L10.766875,24 Z M16,16.5 L16,17.8 C16,19.066875 16.35625,20.310625 17,21.355 C17.64375,20.31125 18,19.066875 18,17.8 L18,16.5 C18,16.22375 18.22375,16 18.5,16 L19.5,16 C19.77625,16 20,16.22375 20,16.5 L20,17.8 C20,20.0175 19.195,22.105625 17.7325,23.680625 C17.54375,23.88375 17.278125,24 17,24 C16.721875,24 16.45625,23.88375 16.2675,23.680625 C14.805,22.105625 14,20.0175 14,17.8 L14,16.5 C14,16.22375 14.22375,16 14.5,16 L15.5,16 C15.77625,16 16,16.22375 16,16.5 L16,16.5 Z M23.5625,6.5625 L17.44375,0.4375 C17.1625,0.15625 16.78125,0 16.38125,0 L16,0 L16,8 L24,8 L24,7.61875 C24,7.225 23.84375,6.84375 23.5625,6.5625 Z" id="Icon-Shape"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="24" height="32"></rect>
+                    </g>
+                    <g id="fa-solid:tv" filter="url(#filter-4)" transform="translate(56.000000, 0.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#2E72CE">
+                            <path d="M37,0 L3,0 C1.34375,0 0,1.34375 0,3 L0,23 C0,24.65625 1.34375,26 3,26 L18.31875,26 L18.31875,28 L8.31875,28 C7.2125,28 6.31875,28.89375 6.31875,30 C6.31875,31.10625 7.2125,32 8.31875,32 L32.31875,32 C33.425,32 34.31875,31.10625 34.31875,30 C34.31875,28.89375 33.425,28 32.31875,28 L22.31875,28 L22.31875,26 L37,26 C38.65625,26 40,24.65625 40,23 L40,3 C40,1.34375 38.65625,0 37,0 Z M36,22 L4,22 L4,4 L36,4 L36,22 Z" id="Icon-Shape"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="40" height="32"></rect>
+                    </g>
+                    <g id="fa-solid:stream" filter="url(#filter-5)" transform="translate(128.000000, 0.000000)" fill-rule="nonzero">
+                        <g id="Icon" transform="translate(0.000000, 2.000000)" fill="#2E72CE">
+                            <path d="M1,6 L27,6 C27.5525,6 28,5.5525 28,5 L28,1 C28,0.4475 27.5525,0 27,0 L1,0 C0.4475,0 0,0.4475 0,1 L0,5 C0,5.5525 0.4475,6 1,6 Z M31,11 L5,11 C4.4475,11 4,11.4475 4,12 L4,16 C4,16.5525 4.4475,17 5,17 L31,17 C31.5525,17 32,16.5525 32,16 L32,12 C32,11.4475 31.5525,11 31,11 Z M27,22 L1,22 C0.4475,22 0,22.4475 0,23 L0,27 C0,27.5525 0.4475,28 1,28 L27,28 C27.5525,28 28,27.5525 28,27 L28,23 C28,22.4475 27.5525,22 27,22 Z" id="Icon-Shape"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="32" height="32"></rect>
+                    </g>
+                    <g id="fa-solid:cloud-moon" filter="url(#filter-6)" transform="translate(192.000000, 0.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#2E72CE">
+                            <path d="M21.425,22.04375 C21.78125,21.44375 22,20.75 22,20 C22,17.79375 20.20625,16 18,16 C16.925,16 15.95,16.43125 15.23125,17.11875 C14.2125,15.26875 12.2625,14 10,14 C6.6875,14 4,16.6875 4,20 C4,20.125 4.03125,20.2375 4.0375,20.35625 C1.69375,21.175 0,23.38125 0,26 C0,29.3125 2.6875,32 6,32 L21,32 C23.7625,32 26,29.7625 26,27 C26,24.38125 23.98125,22.2625 21.425,22.04375 Z M35.33125,18.65 C29.5125,19.75625 24.175,15.29375 24.175,9.41875 C24.175,6.03125 25.9875,2.91875 28.93125,1.24375 C29.3875,0.9875 29.26875,0.3 28.75625,0.2 C28.025,0.06875 27.29375,0 26.5625,0 C19.94375,0 14.56875,5.36875 14.56875,12 C14.56875,12.53125 14.6125,13.05 14.68125,13.5625 C15.05,13.83125 15.40625,14.11875 15.725,14.45 C16.4375,14.15625 17.20625,14 18,14 C21.30625,14 24,16.69375 24,20 C24,20.225 23.9875,20.45 23.9625,20.66875 C25.4375,21.34375 26.6125,22.5125 27.30625,23.95625 C30.70625,23.74375 33.7875,22.125 35.875,19.55625 C36.20625,19.15 35.84375,18.55 35.33125,18.65 Z" id="Icon-Shape"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="36" height="32"></rect>
+                    </g>
+                    <g id="Actions-Tooltip-Startpage-" transform="translate(15.000000, 39.000000)">
+                        <polygon id="Triangle" fill="#7A7A7A" points="62.5 0 71 8 54 8"></polygon>
+                        <rect id="Rectangle" fill="#7A7A7A" x="0" y="8" width="125" height="25" rx="2"></rect>
+                        <text id="Open-as-startpage" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="12" font-weight="400" fill="#FFFFFF">
+                            <tspan x="11" y="25">Open as startpage</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="Welcome-back,-Staffb" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400" fill="#7E7E7E">
+                    <tspan x="0" y="16">Welcome back, </tspan>
+                    <tspan x="0" y="35" font-size="24">Staffbase GmbH</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Cards---development" transform="translate(448.000000, 402.000000)">
+            <text id="Development" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="22" font-weight="400" fill="#7E7E7E">
+                <tspan x="0" y="21">Development</tspan>
+            </text>
+            <g id="Card---Cloud9" transform="translate(0.000000, 41.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-7"></use>
+                </g>
+                <g id="Card-header">
+                    <path d="M4,0 L276,0 C278.209139,-4.05812251e-16 280,1.790861 280,4 L280,28 C280,30.209139 278.209139,32 276,32 L4,32 C1.790861,32 2.705415e-16,30.209139 0,28 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#2E72CE"></path>
+                    <g id="fa-solid:cloud" transform="translate(242.000000, 4.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#FFFFFF">
+                            <path d="M25.2,10.621875 C25.3921875,10.1203125 25.5,9.571875 25.5,9 C25.5,6.515625 23.484375,4.5 21,4.5 C20.0765625,4.5 19.2140625,4.78125 18.5015625,5.259375 C17.203125,3.009375 14.7796875,1.5 12,1.5 C7.85625,1.5 4.5,4.85625 4.5,9 C4.5,9.1265625 4.5046875,9.253125 4.509375,9.3796875 C1.884375,10.303125 0,12.80625 0,15.75 C0,19.4765625 3.0234375,22.5 6.75,22.5 L24,22.5 C27.3140625,22.5 30,19.8140625 30,16.5 C30,13.5984375 27.9375,11.175 25.2,10.621875 Z" id="Icon-Path"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="30" height="24"></rect>
+                    </g>
+                    <text id="Cloud9-Online-IDE" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                        <tspan x="16" y="23">Cloud9 Online IDE</tspan>
+                    </text>
+                </g>
+                <text id="Instead-of-IntelliJ" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="11" font-weight="400" line-spacing="15" fill="#7E7E7E">
+                    <tspan x="16" y="48">Instead of IntelliJ we now make us of an online </tspan>
+                    <tspan x="16" y="63">ide. All systems are preconfigured and all your </tspan>
+                    <tspan x="16" y="78">changes will be in sync with our git repositories. </tspan>
+                    <tspan x="16" y="93">Login with Single Sign On and your G-Suite </tspan>
+                    <tspan x="16" y="108">profile.</tspan>
+                </text>
+                <path d="M0,26 L280,26 L280,32 L0,32 L0,26 Z" id="Rectangle" fill="#2E72CE"></path>
+            </g>
+            <g id="Card---Trigger" transform="translate(296.000000, 41.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                    <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-9"></use>
+                </g>
+                <g id="Card-header">
+                    <path d="M4,0 L276,0 C278.209139,-4.05812251e-16 280,1.790861 280,4 L280,28 C280,30.209139 278.209139,32 276,32 L4,32 C1.790861,32 2.705415e-16,30.209139 0,28 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#2E72CE"></path>
+                    <g id="fa-solid:cloud" transform="translate(242.000000, 4.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#FFFFFF">
+                            <path d="M25.2,10.621875 C25.3921875,10.1203125 25.5,9.571875 25.5,9 C25.5,6.515625 23.484375,4.5 21,4.5 C20.0765625,4.5 19.2140625,4.78125 18.5015625,5.259375 C17.203125,3.009375 14.7796875,1.5 12,1.5 C7.85625,1.5 4.5,4.85625 4.5,9 C4.5,9.1265625 4.5046875,9.253125 4.509375,9.3796875 C1.884375,10.303125 0,12.80625 0,15.75 C0,19.4765625 3.0234375,22.5 6.75,22.5 L24,22.5 C27.3140625,22.5 30,19.8140625 30,16.5 C30,13.5984375 27.9375,11.175 25.2,10.621875 Z" id="Icon-Path"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="30" height="24"></rect>
+                    </g>
+                    <text id="Trigger.io" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                        <tspan x="16" y="23">Trigger.io</tspan>
+                    </text>
+                </g>
+                <text id="Because-of-you-produ" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="11" font-weight="400" line-spacing="15" fill="#7E7E7E">
+                    <tspan x="16" y="48">Because of you products are hybrid apps written </tspan>
+                    <tspan x="16" y="63">in JavaScript, there is need of a native bridge for </tspan>
+                    <tspan x="16" y="78">Android and iOS. Trigger is our native api for </tspan>
+                    <tspan x="16" y="93">building apps.</tspan>
+                </text>
+                <path d="M0,26 L280,26 L280,32 L0,32 L0,26 Z" id="Rectangle" fill="#2E72CE"></path>
+            </g>
+            <g id="Card---Cyberduck" transform="translate(592.000000, 41.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                    <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-11"></use>
+                </g>
+                <g id="Card-header">
+                    <path d="M4,0 L276,0 C278.209139,-4.05812251e-16 280,1.790861 280,4 L280,28 C280,30.209139 278.209139,32 276,32 L4,32 C1.790861,32 2.705415e-16,30.209139 0,28 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#2E72CE"></path>
+                    <g id="fa-solid:cloud" transform="translate(242.000000, 4.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#FFFFFF">
+                            <path d="M25.2,10.621875 C25.3921875,10.1203125 25.5,9.571875 25.5,9 C25.5,6.515625 23.484375,4.5 21,4.5 C20.0765625,4.5 19.2140625,4.78125 18.5015625,5.259375 C17.203125,3.009375 14.7796875,1.5 12,1.5 C7.85625,1.5 4.5,4.85625 4.5,9 C4.5,9.1265625 4.5046875,9.253125 4.509375,9.3796875 C1.884375,10.303125 0,12.80625 0,15.75 C0,19.4765625 3.0234375,22.5 6.75,22.5 L24,22.5 C27.3140625,22.5 30,19.8140625 30,16.5 C30,13.5984375 27.9375,11.175 25.2,10.621875 Z" id="Icon-Path"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="30" height="24"></rect>
+                    </g>
+                    <text id="Cyberduck" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                        <tspan x="16" y="23">Cyberduck</tspan>
+                    </text>
+                </g>
+                <text id="It’s-a-program-for-t" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="11" font-weight="400" line-spacing="15" fill="#7E7E7E">
+                    <tspan x="16" y="48">It’s a program for transfering files between your </tspan>
+                    <tspan x="16" y="63">local workstation and the server. In 1Password </tspan>
+                    <tspan x="16" y="78">you find preconfigured bookmarks for all our </tspan>
+                    <tspan x="16" y="93">production and test systems.</tspan>
+                </text>
+                <path d="M0,26 L280,26 L280,32 L0,32 L0,26 Z" id="Rectangle" fill="#2E72CE"></path>
+            </g>
+            <g id="Card---Notion" transform="translate(0.000000, 184.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                    <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-13"></use>
+                </g>
+                <g id="Card-header">
+                    <path d="M4,0 L276,0 C278.209139,-4.05812251e-16 280,1.790861 280,4 L280,28 C280,30.209139 278.209139,32 276,32 L4,32 C1.790861,32 2.705415e-16,30.209139 0,28 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#2E72CE"></path>
+                    <g id="fa-solid:cloud" transform="translate(242.000000, 4.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#FFFFFF">
+                            <path d="M25.2,10.621875 C25.3921875,10.1203125 25.5,9.571875 25.5,9 C25.5,6.515625 23.484375,4.5 21,4.5 C20.0765625,4.5 19.2140625,4.78125 18.5015625,5.259375 C17.203125,3.009375 14.7796875,1.5 12,1.5 C7.85625,1.5 4.5,4.85625 4.5,9 C4.5,9.1265625 4.5046875,9.253125 4.509375,9.3796875 C1.884375,10.303125 0,12.80625 0,15.75 C0,19.4765625 3.0234375,22.5 6.75,22.5 L24,22.5 C27.3140625,22.5 30,19.8140625 30,16.5 C30,13.5984375 27.9375,11.175 25.2,10.621875 Z" id="Icon-Path"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="30" height="24"></rect>
+                    </g>
+                    <text id="Notion" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                        <tspan x="16" y="23">Notion</tspan>
+                    </text>
+                </g>
+                <text id="All-our-development" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="11" font-weight="400" line-spacing="15" fill="#7E7E7E">
+                    <tspan x="16" y="48">All our development documentation about </tspan>
+                    <tspan x="16" y="63">contects, apis and more is located in Notion. It’s </tspan>
+                    <tspan x="16" y="78">a very powerful tool for collection knowledge, </tspan>
+                    <tspan x="16" y="93">especially for collaboration.</tspan>
+                </text>
+                <path d="M0,26 L280,26 L280,32 L0,32 L0,26 Z" id="Rectangle" fill="#2E72CE"></path>
+            </g>
+            <g id="Card---Slack" transform="translate(296.000000, 184.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                    <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-15"></use>
+                </g>
+                <g id="Card-header">
+                    <path d="M4,0 L276,0 C278.209139,-4.05812251e-16 280,1.790861 280,4 L280,28 C280,30.209139 278.209139,32 276,32 L4,32 C1.790861,32 2.705415e-16,30.209139 0,28 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#2E72CE"></path>
+                    <g id="fa-solid:cloud" transform="translate(242.000000, 4.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#FFFFFF">
+                            <path d="M25.2,10.621875 C25.3921875,10.1203125 25.5,9.571875 25.5,9 C25.5,6.515625 23.484375,4.5 21,4.5 C20.0765625,4.5 19.2140625,4.78125 18.5015625,5.259375 C17.203125,3.009375 14.7796875,1.5 12,1.5 C7.85625,1.5 4.5,4.85625 4.5,9 C4.5,9.1265625 4.5046875,9.253125 4.509375,9.3796875 C1.884375,10.303125 0,12.80625 0,15.75 C0,19.4765625 3.0234375,22.5 6.75,22.5 L24,22.5 C27.3140625,22.5 30,19.8140625 30,16.5 C30,13.5984375 27.9375,11.175 25.2,10.621875 Z" id="Icon-Path"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="30" height="24"></rect>
+                    </g>
+                    <text id="Slack" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                        <tspan x="16" y="23">Slack</tspan>
+                    </text>
+                </g>
+                <text id="All-developers-commu" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="11" font-weight="400" line-spacing="15" fill="#7E7E7E">
+                    <tspan x="16" y="48">All developers communicate via Slack </tspan>
+                    <tspan x="16" y="63">messaging. Join them and sign in with your G-</tspan>
+                    <tspan x="16" y="78">Suite profile.</tspan>
+                </text>
+                <path d="M0,26 L280,26 L280,32 L0,32 L0,26 Z" id="Rectangle" fill="#2E72CE"></path>
+            </g>
+            <g id="Card---AWS" transform="translate(592.000000, 184.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                    <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-17"></use>
+                </g>
+                <g id="Card-header">
+                    <path d="M4,0 L276,0 C278.209139,-4.05812251e-16 280,1.790861 280,4 L280,28 C280,30.209139 278.209139,32 276,32 L4,32 C1.790861,32 2.705415e-16,30.209139 0,28 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#2E72CE"></path>
+                    <g id="fa-solid:cloud" transform="translate(242.000000, 4.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#FFFFFF">
+                            <path d="M25.2,10.621875 C25.3921875,10.1203125 25.5,9.571875 25.5,9 C25.5,6.515625 23.484375,4.5 21,4.5 C20.0765625,4.5 19.2140625,4.78125 18.5015625,5.259375 C17.203125,3.009375 14.7796875,1.5 12,1.5 C7.85625,1.5 4.5,4.85625 4.5,9 C4.5,9.1265625 4.5046875,9.253125 4.509375,9.3796875 C1.884375,10.303125 0,12.80625 0,15.75 C0,19.4765625 3.0234375,22.5 6.75,22.5 L24,22.5 C27.3140625,22.5 30,19.8140625 30,16.5 C30,13.5984375 27.9375,11.175 25.2,10.621875 Z" id="Icon-Path"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="30" height="24"></rect>
+                    </g>
+                    <text id="Cyberduck" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                        <tspan x="16" y="23">Cyberduck</tspan>
+                    </text>
+                </g>
+                <text id="It’s-a-program-for-t" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="11" font-weight="400" line-spacing="15" fill="#7E7E7E">
+                    <tspan x="16" y="48">It’s a program for transfering files between your </tspan>
+                    <tspan x="16" y="63">local workstation and the server. In 1Password </tspan>
+                    <tspan x="16" y="78">you find preconfigured bookmarks for all our </tspan>
+                    <tspan x="16" y="93">production and test systems.</tspan>
+                </text>
+                <path d="M0,26 L280,26 L280,32 L0,32 L0,26 Z" id="Rectangle" fill="#2E72CE"></path>
+            </g>
+        </g>
+        <g id="Cards---infrastructure" transform="translate(448.000000, 169.000000)">
+            <text id="Infrastructure" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="22" font-weight="400" fill="#7E7E7E">
+                <tspan x="0" y="21">Infrastructure</tspan>
+            </text>
+            <g id="Card---Hetzner-Online-AG" transform="translate(0.000000, 41.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                    <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-19"></use>
+                </g>
+                <g id="Card-header">
+                    <path d="M4,0 L276,0 C278.209139,-4.05812251e-16 280,1.790861 280,4 L280,28 C280,30.209139 278.209139,32 276,32 L4,32 C1.790861,32 2.705415e-16,30.209139 0,28 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#2E72CE"></path>
+                    <g id="fa-solid:cloud" transform="translate(242.000000, 4.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#FFFFFF">
+                            <path d="M25.2,10.621875 C25.3921875,10.1203125 25.5,9.571875 25.5,9 C25.5,6.515625 23.484375,4.5 21,4.5 C20.0765625,4.5 19.2140625,4.78125 18.5015625,5.259375 C17.203125,3.009375 14.7796875,1.5 12,1.5 C7.85625,1.5 4.5,4.85625 4.5,9 C4.5,9.1265625 4.5046875,9.253125 4.509375,9.3796875 C1.884375,10.303125 0,12.80625 0,15.75 C0,19.4765625 3.0234375,22.5 6.75,22.5 L24,22.5 C27.3140625,22.5 30,19.8140625 30,16.5 C30,13.5984375 27.9375,11.175 25.2,10.621875 Z" id="Icon-Path"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="30" height="24"></rect>
+                    </g>
+                    <text id="Hetzner-Online-AG" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                        <tspan x="16" y="23">Hetzner Online AG</tspan>
+                    </text>
+                </g>
+                <text id="German-internet-serv" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="11" font-weight="400" line-spacing="15" fill="#7E7E7E">
+                    <tspan x="16" y="48">German internet service provider. Hosting our </tspan>
+                    <tspan x="16" y="63">dns entries, and gives us ssl certs for all </tspan>
+                    <tspan x="16" y="78">hosting clients.</tspan>
+                </text>
+                <path d="M0,26 L280,26 L280,32 L0,32 L0,26 Z" id="Rectangle" fill="#2E72CE"></path>
+            </g>
+            <g id="Card---AWS" transform="translate(296.000000, 41.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
+                    <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-21"></use>
+                </g>
+                <g id="Card-header">
+                    <path d="M4,0 L276,0 C278.209139,-4.05812251e-16 280,1.790861 280,4 L280,28 C280,30.209139 278.209139,32 276,32 L4,32 C1.790861,32 2.705415e-16,30.209139 0,28 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#2E72CE"></path>
+                    <g id="fa-solid:cloud" transform="translate(242.000000, 4.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#FFFFFF">
+                            <path d="M25.2,10.621875 C25.3921875,10.1203125 25.5,9.571875 25.5,9 C25.5,6.515625 23.484375,4.5 21,4.5 C20.0765625,4.5 19.2140625,4.78125 18.5015625,5.259375 C17.203125,3.009375 14.7796875,1.5 12,1.5 C7.85625,1.5 4.5,4.85625 4.5,9 C4.5,9.1265625 4.5046875,9.253125 4.509375,9.3796875 C1.884375,10.303125 0,12.80625 0,15.75 C0,19.4765625 3.0234375,22.5 6.75,22.5 L24,22.5 C27.3140625,22.5 30,19.8140625 30,16.5 C30,13.5984375 27.9375,11.175 25.2,10.621875 Z" id="Icon-Path"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="30" height="24"></rect>
+                    </g>
+                    <text id="Amazon-Web-Services" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                        <tspan x="16" y="23">Amazon Web Services</tspan>
+                    </text>
+                </g>
+                <text id="With-Amazon-Cloudfro" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="11" font-weight="400" line-spacing="15" fill="#7E7E7E">
+                    <tspan x="16" y="48">With Amazon Cloudfront we’re serving static </tspan>
+                    <tspan x="16" y="63">content from our clients. Here we host our </tspan>
+                    <tspan x="16" y="78">content delivery network (cdn).</tspan>
+                </text>
+                <path d="M0,26 L280,26 L280,32 L0,32 L0,26 Z" id="Rectangle" fill="#2E72CE"></path>
+            </g>
+        </g>
+    </g>
+</svg>

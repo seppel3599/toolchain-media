@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>editor</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="320" height="64" rx="2"></rect>
+        <filter x="-1.9%" y="-9.4%" width="103.8%" height="118.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="4" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.704427083   0 0 0 0 0.704427083   0 0 0 0 0.704427083  0 0 0 0.655539773 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="300" height="36" rx="3"></rect>
+        <filter x="-0.7%" y="-5.6%" width="101.3%" height="111.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="300" height="36" rx="3"></rect>
+        <filter x="-0.7%" y="-5.6%" width="101.3%" height="111.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-32.6%" y="-37.5%" width="165.8%" height="175.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-42.9%" y="-37.5%" width="185.7%" height="175.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="editor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1440" height="1024"></rect>
+        <g id="Sidebar">
+            <g fill-rule="evenodd" stroke-width="1">
+                <g>
+                    <rect id="Sidebar-background" fill="#2E72CE" x="0" y="0" width="400" height="1024"></rect>
+                    <text id="Toolchain" font-family="LucidaGrande-Bold, Lucida Grande" font-size="32" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="119" y="63">Toolchain</tspan>
+                    </text>
+                    <g id="Help-center-(inactive)" transform="translate(40.000000, 428.000000)">
+                        <text id="Help-center" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="75" y="39">Help center</tspan>
+                        </text>
+                        <g id="fa-solid:question" transform="translate(24.000000, 16.000000)" fill-rule="nonzero">
+                            <g id="Icon" fill="#FFFFFF">
+                                <path d="M12.6263125,0 C7.637625,0 4.4064375,2.0439375 1.869625,5.689125 C1.4094375,6.350375 1.5513125,7.257 2.19325,7.74375 L4.889375,9.7880625 C5.5376875,10.279625 6.460125,10.1646875 6.9676875,9.5288125 C8.53325,7.5675 9.6945625,6.43825 12.14,6.43825 C14.06275,6.43825 16.441,7.6756875 16.441,9.5401875 C16.441,10.9496875 15.2774375,11.6735625 13.3789375,12.7379375 C11.165,13.9791875 8.23525,15.5239375 8.23525,19.38825 L8.23525,20 C8.23525,20.8284375 8.9068125,21.5 9.73525,21.5 L14.2646875,21.5 C15.093125,21.5 15.7646875,20.8284375 15.7646875,20 L15.7646875,19.6391875 C15.7646875,16.9604375 23.5939375,16.848875 23.5939375,9.6 C23.594,4.141 17.931375,0 12.6263125,0 Z M12,23.3411875 C9.61275,23.3411875 7.6705625,25.283375 7.6705625,27.670625 C7.6705625,30.0578125 9.61275,32 12,32 C14.38725,32 16.3294375,30.0578125 16.3294375,27.6705625 C16.3294375,25.2833125 14.38725,23.3411875 12,23.3411875 Z" id="Icon-Shape"></path>
+                            </g>
+                            <rect id="ViewBox" x="0" y="0" width="24" height="32"></rect>
+                        </g>
+                    </g>
+                    <g id="Request-new-service-(inactive)" transform="translate(62.000000, 380.000000)">
+                        <g id="fa-solid:folder" fill-rule="nonzero">
+                            <g id="Icon" transform="translate(0.000000, 4.000000)" fill="#2E72CE">
+                                <path d="M29,4 L17,4 L13,0 L3,0 C1.343125,0 0,1.343125 0,3 L0,21 C0,22.656875 1.343125,24 3,24 L29,24 C30.656875,24 32,22.656875 32,21 L32,7 C32,5.343125 30.656875,4 29,4 Z" id="Icon-Path"></path>
+                            </g>
+                            <rect id="ViewBox" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                        <text id="Request-approval" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="55" y="23">Request approval </tspan>
+                        </text>
+                        <g id="fa-solid:shield-alt" fill-rule="nonzero">
+                            <g id="Icon" fill="#FFFFFF">
+                                <path d="M29.15625,5.23125 L17.15625,0.23125 C16.4180016,-0.0750052698 15.5882484,-0.0750052698 14.85,0.23125 L2.85,5.23125 C1.73125,5.69375 1,6.7875 1,8 C1,20.40625 8.15625,28.98125 14.84375,31.76875 C15.58125,32.075 16.4125,32.075 17.15,31.76875 C22.50625,29.5375 31,21.83125 31,8 C31,6.7875 30.26875,5.69375 29.15625,5.23125 Z M16.00625,27.89375 L16,4.08125 L26.99375,8.6625 C26.7875,18.125 21.8625,24.98125 16.00625,27.89375 L16.00625,27.89375 Z" id="Icon-Shape"></path>
+                            </g>
+                            <rect id="ViewBox" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                    </g>
+                    <g id="Add-new-service-(inactive)" transform="translate(40.000000, 300.000000)">
+                        <g id="fa-solid:folder" transform="translate(22.000000, 16.000000)" fill-rule="nonzero">
+                            <g id="Icon" transform="translate(0.000000, 4.000000)" fill="#2E72CE">
+                                <path d="M29,4 L17,4 L13,0 L3,0 C1.343125,0 0,1.343125 0,3 L0,21 C0,22.656875 1.343125,24 3,24 L29,24 C30.656875,24 32,22.656875 32,21 L32,7 C32,5.343125 30.656875,4 29,4 Z" id="Icon-Path"></path>
+                            </g>
+                            <rect id="ViewBox" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                        <g id="fa-solid:plus" fill-rule="nonzero">
+                            <g id="Icon" transform="translate(24.000000, 18.000000)" fill="#FFFFFF">
+                                <path d="M26,11 L17,11 L17,2 C17,0.895625 16.104375,0 15,0 L13,0 C11.895625,0 11,0.895625 11,2 L11,11 L2,11 C0.895625,11 0,11.895625 0,13 L0,15 C0,16.104375 0.895625,17 2,17 L11,17 L11,26 C11,27.104375 11.895625,28 13,28 L15,28 C16.104375,28 17,27.104375 17,26 L17,17 L26,17 C27.104375,17 28,16.104375 28,15 L28,13 C28,11.895625 27.104375,11 26,11 Z" id="Icon-Path"></path>
+                            </g>
+                            <rect id="ViewBox" x="24" y="16" width="28" height="32"></rect>
+                        </g>
+                        <text id="Add-a-service" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#FFFFFF">
+                            <tspan x="77" y="39">Add a service</tspan>
+                        </text>
+                    </g>
+                    <g id="Current-view" transform="translate(40.000000, 236.000000)">
+                        <g id="Rectangle">
+                            <use fill="#F6F6F6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <rect stroke="#B9B9B9" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="319" height="63" rx="2"></rect>
+                        </g>
+                        <g id="fa-solid:folder" transform="translate(24.000000, 16.000000)" fill-rule="nonzero">
+                            <g id="Icon" transform="translate(0.000000, 4.000000)" fill="#2E72CE">
+                                <path d="M29,4 L17,4 L13,0 L3,0 C1.343125,0 0,1.343125 0,3 L0,21 C0,22.656875 1.343125,24 3,24 L29,24 C30.656875,24 32,22.656875 32,21 L32,7 C32,5.343125 30.656875,4 29,4 Z" id="Icon-Path"></path>
+                            </g>
+                            <rect id="ViewBox" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                        <text id="All-services" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" fill="#2E72CE">
+                            <tspan x="79" y="39">All services</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <text id="Beat-your-toolchain" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400" fill="#FFFFFF">
+                <tspan x="106" y="95">Beat your toolchain mess</tspan>
+            </text>
+            <g id="fa-solid:tools" stroke-width="1" fill-rule="evenodd" transform="translate(136.000000, 864.000000)">
+                <g id="Icon" fill="#E2E2E2" fill-opacity="0.218586101" fill-rule="nonzero">
+                    <path d="M125.311889,98.7570494 L96.0865909,69.5317512 C90.3213954,63.7665558 81.7110386,62.6434658 74.772838,66.0626509 L48.1680832,39.4578962 L48.1680832,23.9592538 L16.2224115,0 L0.249575561,15.9728359 L24.2088294,47.9185077 L39.7074717,47.9185077 L66.3122265,74.5232624 C62.9179989,81.461463 64.0161313,90.0718199 69.7813268,95.8370153 L99.006625,125.062314 C102.650428,128.706117 108.540411,128.706117 112.159257,125.062314 L125.311889,111.909681 C128.930735,108.265878 128.930735,102.375895 125.311889,98.7570494 L125.311889,98.7570494 Z M83.0337891,56.1545012 C90.0967774,56.1545012 96.7354874,58.8998323 101.726999,63.8913436 L106.568764,68.7331094 C110.512058,67.0110381 114.255692,64.6151127 117.500174,61.3706304 C126.759427,52.1113771 129.904079,39.0835328 126.959088,27.2536512 C126.410022,25.0074712 123.589818,24.233787 121.942619,25.8809857 L103.374197,44.4494074 L86.4280167,41.6292035 L83.6078129,24.683023 L102.176235,6.11460124 C103.823433,4.46740254 103.024791,1.6471987 100.753654,1.07317491 C88.9237723,-1.84685915 75.895928,1.29779292 66.6616323,10.5320887 C59.5487288,17.6449921 56.2044163,27.0290332 56.3791192,36.3881168 L76.8692727,56.8782703 C78.8908348,56.4040767 80.9872695,56.1545012 83.0337891,56.1545012 Z M57.1028883,76.6196972 L42.951954,62.4687629 L4.91663855,100.529036 C-1.32275047,106.768425 -1.32275047,116.876235 4.91663855,123.115624 C11.1560276,129.355013 21.2638378,129.355013 27.5032268,123.115624 L58.3507661,92.2680848 C56.4539918,87.3015312 55.8799681,81.8857415 57.1028883,76.6196972 L57.1028883,76.6196972 Z M16.2224115,117.799665 C12.928014,117.799665 10.232598,115.104249 10.232598,111.809851 C10.232598,108.490496 12.9030565,105.820038 16.2224115,105.820038 C19.5417664,105.820038 22.2122249,108.490496 22.2122249,111.809851 C22.2122249,115.104249 19.5417664,117.799665 16.2224115,117.799665 Z" id="Icon-Shape"></path>
+                </g>
+                <rect id="ViewBox" fill-rule="nonzero" x="0" y="0" width="127.498039" height="127.498039"></rect>
+            </g>
+        </g>
+        <g id="Content" transform="translate(448.000000, 167.000000)">
+            <g id="Editor" transform="translate(0.000000, 122.000000)">
+                <rect id="Rectangle" fill="#B9DBFF" x="473" y="130" width="44" height="17" rx="2"></rect>
+                <text id="Wozu-benutzen-wir-He" fill="#000000" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold">
+                    <tspan x="-5.68434189e-14" y="18">Wozu benutzen wir Hetzner?</tspan>
+                    <tspan x="-5.68434189e-14" y="40" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal"></tspan>
+                    <tspan x="-5.68434189e-14" y="61" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">Horsefish, "loosejaw electric stargazer fusilier fish." Blackfish sea dragon lancetfish rock </tspan>
+                    <tspan x="-5.68434189e-14" y="82" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">beauty sandburrower pirarucu northern clingfish quillback hammerhead shark slender </tspan>
+                    <tspan x="-5.68434189e-14" y="103" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">barracudina. Pacific salmon golden loach deep sea bonefish; trout cod slimy sculpin, </tspan>
+                    <tspan x="-5.68434189e-14" y="124" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">arrowtooth eel grideye. Freshwater eel sea devil emperor bleak garibaldi shovelnose </tspan>
+                    <tspan x="-5.68434189e-14" y="145" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">sturgeon lancetfish fusilier fish snakehead, "atka mackerel: </tspan>
+                    <tspan x="475.596" y="145" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">sand</tspan>
+                    <tspan x="514.944" y="145" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal"> dab."</tspan>
+                    <tspan x="-5.68434189e-14" y="166" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal"></tspan>
+                    <tspan x="-5.68434189e-14" y="187" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal"></tspan>
+                    <tspan x="-5.68434189e-14" y="208">Wie buchst du eine neue Domain?</tspan>
+                    <tspan x="-5.68434189e-14" y="230" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal"></tspan>
+                    <tspan x="-5.68434189e-14" y="251" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">Antarctic icefish longfin dragonfish yellowtail barracuda bobtail snipe eel oldwife </tspan>
+                    <tspan x="-5.68434189e-14" y="272" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">deepwater stingray? Scaleless black dragonfish redtooth triggerfish Celebes </tspan>
+                    <tspan x="-5.68434189e-14" y="293" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">rainbowfish. Queen parrotfish cuchia blackfish porgy dogfish sawtooth eel yellow-eye </tspan>
+                    <tspan x="-5.68434189e-14" y="314" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">mullet bandfish boxfish, antenna codlet, "ronquil, sea bass spearfish tripod fish; red </tspan>
+                    <tspan x="-5.68434189e-14" y="335" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">velvetfish."</tspan>
+                </text>
+                <image id="Bitmap" x="390" y="147" width="211" height="52" xlink:href="data:image/png;base64,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"></image>
+            </g>
+            <g id="Enter-title">
+                <g id="Title-input" transform="translate(0.000000, 22.000000)">
+                    <g id="Input-Background">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <rect stroke="#979797" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="299" height="35" rx="3"></rect>
+                    </g>
+                    <text id="Hetzner-Online-AG" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="11" y="22">Hetzner Online AG</tspan>
+                    </text>
+                </g>
+                <text id="Enter-a-title" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="13">Enter a title</tspan>
+                </text>
+            </g>
+            <g id="Enter-icon-(optional)" transform="translate(364.000000, 0.000000)">
+                <g id="Title-input" transform="translate(0.000000, 22.000000)">
+                    <g id="Input-Background">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <rect stroke="#979797" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="299" height="35" rx="3"></rect>
+                    </g>
+                    <text id="https://cdn.renick.i" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="11" y="22">https://cdn.renick.io/rLkflkXmdoW30Ols/h…</tspan>
+                    </text>
+                </g>
+                <text id="Enter-logo-link-(opt" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="13">Enter logo link (optional)</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Application-header,-on-page" transform="translate(448.000000, 32.000000)">
+            <g id="Application-header">
+                <g id="Action-Icons" transform="translate(817.000000, 0.000000)">
+                    <g id="fa-solid:cloud-moon" filter="url(#filter-7)" transform="translate(106.000000, 0.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#2E72CE">
+                            <path d="M21.425,22.04375 C21.78125,21.44375 22,20.75 22,20 C22,17.79375 20.20625,16 18,16 C16.925,16 15.95,16.43125 15.23125,17.11875 C14.2125,15.26875 12.2625,14 10,14 C6.6875,14 4,16.6875 4,20 C4,20.125 4.03125,20.2375 4.0375,20.35625 C1.69375,21.175 0,23.38125 0,26 C0,29.3125 2.6875,32 6,32 L21,32 C23.7625,32 26,29.7625 26,27 C26,24.38125 23.98125,22.2625 21.425,22.04375 Z M35.33125,18.65 C29.5125,19.75625 24.175,15.29375 24.175,9.41875 C24.175,6.03125 25.9875,2.91875 28.93125,1.24375 C29.3875,0.9875 29.26875,0.3 28.75625,0.2 C28.025,0.06875 27.29375,0 26.5625,0 C19.94375,0 14.56875,5.36875 14.56875,12 C14.56875,12.53125 14.6125,13.05 14.68125,13.5625 C15.05,13.83125 15.40625,14.11875 15.725,14.45 C16.4375,14.15625 17.20625,14 18,14 C21.30625,14 24,16.69375 24,20 C24,20.225 23.9875,20.45 23.9625,20.66875 C25.4375,21.34375 26.6125,22.5125 27.30625,23.95625 C30.70625,23.74375 33.7875,22.125 35.875,19.55625 C36.20625,19.15 35.84375,18.55 35.33125,18.65 Z" id="Icon-Shape"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="36" height="32"></rect>
+                    </g>
+                    <g id="Actions-Tooltip-Startpage-" transform="translate(0.000000, 38.000000)">
+                        <polygon id="Triangle" fill="#7A7A7A" points="29.5 0 38 8 21 8"></polygon>
+                        <rect id="Rectangle" fill="#7A7A7A" x="0" y="8" width="60" height="25" rx="2"></rect>
+                        <text id="Save" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="12" font-weight="400" fill="#FFFFFF">
+                            <tspan x="15.826" y="25">Save</tspan>
+                        </text>
+                    </g>
+                    <g id="fa-solid:trash-alt" filter="url(#filter-8)" transform="translate(62.000000, 0.000000)" fill-rule="nonzero">
+                        <g id="Icon" fill="#2E72CE">
+                            <path d="M2,29 C2,30.6568542 3.34314575,32 5,32 L23,32 C24.6568542,32 26,30.6568542 26,29 L26,8 L2,8 L2,29 Z M19,13 C19,12.4477153 19.4477153,12 20,12 C20.5522847,12 21,12.4477153 21,13 L21,27 C21,27.5522847 20.5522847,28 20,28 C19.4477153,28 19,27.5522847 19,27 L19,13 Z M13,13 C13,12.4477153 13.4477153,12 14,12 C14.5522847,12 15,12.4477153 15,13 L15,27 C15,27.5522847 14.5522847,28 14,28 C13.4477153,28 13,27.5522847 13,27 L13,13 Z M7,13 C7,12.4477153 7.44771525,12 8,12 C8.55228475,12 9,12.4477153 9,13 L9,27 C9,27.5522847 8.55228475,28 8,28 C7.44771525,28 7,27.5522847 7,27 L7,13 Z M27,2 L19.5,2 L18.9125,0.83125 C18.6586518,0.321589211 18.1381294,-0.000408366605 17.56875,6.26917883e-16 L10.425,6.26917883e-16 C9.85669149,-0.00218469017 9.33715088,0.320707374 9.0875,0.83125 L8.5,2 L1,2 C0.44771525,2 6.76353751e-17,2.44771525 0,3 L0,5 C6.76353751e-17,5.55228475 0.44771525,6 1,6 L27,6 C27.5522847,6 28,5.55228475 28,5 L28,3 C28,2.44771525 27.5522847,2 27,2 Z" id="Icon-Shape"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="28" height="32"></rect>
+                    </g>
+                    <g id="fa-solid:check-circle" transform="translate(14.000000, 0.000000)" fill="#2E72CE" fill-rule="nonzero">
+                        <g id="Icon">
+                            <path d="M31.5,16 C31.5,24.5604375 24.5604375,31.5 16,31.5 C7.4395625,31.5 0.5,24.5604375 0.5,16 C0.5,7.4395625 7.4395625,0.5 16,0.5 C24.5604375,0.5 31.5,7.4395625 31.5,16 Z M14.207125,24.207125 L25.707125,12.707125 C26.097625,12.316625 26.097625,11.6834375 25.707125,11.2929375 L24.2929375,9.87875 C23.9024375,9.4881875 23.26925,9.4881875 22.8786875,9.87875 L13.5,19.257375 L9.1213125,14.8786875 C8.7308125,14.4881875 8.097625,14.4881875 7.7070625,14.8786875 L6.292875,16.292875 C5.902375,16.683375 5.902375,17.3165625 6.292875,17.7070625 L12.792875,24.2070625 C13.1834375,24.597625 13.8165625,24.597625 14.207125,24.207125 L14.207125,24.207125 Z" id="Icon-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="Welcome-back,-Staffb" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400" fill="#7E7E7E">
+                    <tspan x="0" y="16">Welcome back, </tspan>
+                    <tspan x="0" y="35" font-size="24">Staffbase GmbH</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Application-copyright" transform="translate(1129.000000, 976.000000)">
+            <g id="Copyright">
+                <g id="fa-solid:user-astronaut" transform="translate(267.000000, 0.000000)" fill-rule="nonzero">
+                    <g id="Icon" fill="#BDBDBD">
+                        <path d="M4,14 L4.84375,14 C6.3875,17.53125 9.9,20 14,20 C18.1,20 21.6125,17.53125 23.15625,14 L24,14 C24.55,14 25,13.55 25,13 L25,7 C25,6.45 24.55,6 24,6 L23.15625,6 C21.6125,2.46875 18.1,0 14,0 C9.9,0 6.3875,2.46875 4.84375,6 L4,6 C3.45,6 3,6.45 3,7 L3,13 C3,13.55 3.45,14 4,14 Z M6.5,8.5 C6.5,7.11875 7.84375,6 9.5,6 L18.5,6 C20.15625,6 21.5,7.11875 21.5,8.5 L21.5,10 C21.5,13.3125 18.8125,16 15.5,16 L12.5,16 C9.1875,16 6.5,13.3125 6.5,10 L6.5,8.5 Z M11,13 L11.75,10.75 L14,10 L11.75,9.25 L11,7 L10.25,9.25 L8,10 L10.25,10.75 L11,13 Z M20.475,20.0875 C18.60625,21.29375 16.3875,22 14,22 C11.6125,22 9.39375,21.29375 7.525,20.0875 C3.30625,20.53125 0,24.0625 0,28.4 L0,29 C0,30.65625 1.34375,32 3,32 L8,32 L8,28 C8,26.89375 8.89375,26 10,26 L18,26 C19.10625,26 20,26.89375 20,28 L20,32 L25,32 C26.65625,32 28,30.65625 28,29 L28,28.4 C28,24.0625 24.69375,20.53125 20.475,20.0875 Z M17,28 C16.45,28 16,28.45 16,29 C16,29.55 16.45,30 17,30 C17.55,30 18,29.55 18,29 C18,28.45 17.55,28 17,28 Z M11,28 C10.45,28 10,28.45 10,29 L10,32 L12,32 L12,29 C12,28.45 11.55,28 11,28 Z" id="Icon-Shape"></path>
+                    </g>
+                    <rect id="ViewBox" x="0" y="0" width="28" height="32"></rect>
+                </g>
+                <text id="Brought-to-you-by-Jo" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="12" font-weight="400" fill="#BDBDBD">
+                    <tspan x="0" y="21">Brought to you by Jonas, Sebastian &amp; Renick</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
