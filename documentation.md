@@ -22,7 +22,7 @@ Das Main-Git-Repo findet man unter: [renickbuettner/toolchain](https://github.co
 
 Ein zweites Git-Repo für Medieninhalte, Coperate Design, Icons und sonstige Medien findet man unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
 
-Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Testseite](https://renick.io/) nutzen.
+Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Testseite](https://renick.io/) nutzen. Für den Fall des lokalen Betriebs bitte die Voraussetzungen in der README beachten. 
 
 
 ## 1. Titel
@@ -67,6 +67,8 @@ Weiterhin haben ebenfalls mögliche Erweiterungen formuliert die bei frühzeitig
 
 ## 5. Team-Mitglieder und Entwicklung
 
+Das Team setzt sich folgendermaßen mit zusammen: 
+
 - Renick Büttner
   - Teamleitung
   - Webdevelopment
@@ -76,7 +78,8 @@ Weiterhin haben ebenfalls mögliche Erweiterungen formuliert die bei frühzeitig
   - Frontend
 - Sebastian Walter
   - Grafiken (Diagramme, Icons, ...)
-  - Design (Präsentation, Mini-CD)
+  - Design (Mini-CD)
+  - Präsentation
   - Dokumentation
 
 ## 6. Aufgabenverteilung
@@ -115,6 +118,7 @@ Weiterhin haben ebenfalls mögliche Erweiterungen formuliert die bei frühzeitig
 ## 6. Architektur 
 
 @Renick: Bitte **kurz** die Architektur beschreiben!
+@Sebastian: unbedingt noch die UML-Diagramme ergänzen
 
 
 

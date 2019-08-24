@@ -3,7 +3,7 @@ Abgabe OOP-Projekt: Toolchain von Renick Büttner, Jonas Wagner und Sebastian Wa
 Guten Tag Proffesor Hara,
 
 \
-hier ist unsere Abgabe für das OOP Projekt. Die Abgabe_Toolchain.zip hat das Passwort "sicheresPasswort".
+hier ist unsere Abgabe für das OOP Projekt. Die "Abgabe_Toolchain.zip" aus dem Anhang hat das Passwort "sicheresPasswort".
 Sie beinhalten die Dateien der beiden Repos. 
 
 Weiterhin haben wir als Backup hier noch die Git-Repos.
