@@ -70,7 +70,7 @@ Weiterhin haben ebenfalls mögliche Erweiterungen formuliert die bei frühzeitig
 Das Team setzt sich folgendermaßen mit zusammen: 
 
 - Renick Büttner
-  - Teamleitung
+  - **Teamleitung**
   - Webdevelopment
   - Backend
 - Jonas Wagner
@@ -84,7 +84,7 @@ Das Team setzt sich folgendermaßen mit zusammen:
 
 ## 6. Aufgabenverteilung
 
-
+Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Das Herr Büttner die Aufgaben des Teamleiters/Projektmanagers übernimmt war aufgrund seiner Erfahrung bei solchen Projekten. Weiterhin haben Herr Wagner und Herr Büttner bereits eingehende Erfahrung mit PHP bzw. direkt mit dem Laravel Framework. 
 
 ### genaue Aufgabenverteilung:
 
@@ -137,9 +137,10 @@ Das Team setzt sich folgendermaßen mit zusammen:
 - Erstellen eines eigenen Repositories für die Medieninhalte, Dokumentation und Informationen zum Design durch Sebastian ⇒ [Toolchain-Media](https://github.com/seppel3599/toolchain-media)
 - Längere Pause: durch Prüfungen
 - Juli: Entwurf und Umsetzung der Icons durch Sebastian
-- Juli: Fortsetzen der Arbeit an der Web-App
+- Juli: Fortsetzen der Arbeit an der Web-App durch Renick und Jonas
 - Anfang August: Schreiben der Dokumentation
-- 
+
+erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funktion, 
 
 ## 8. Bug-Liste
 

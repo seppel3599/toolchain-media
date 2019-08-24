@@ -12,9 +12,9 @@
   - Was haben wir gelernt?
   
   
-- What?
-- Who?
-- How?
-- Any problems?
-- Learnings?
-- Overview.
+- Was?
+- Wer?
+- Wie?
+- Probleme?
+- Was haben wir gelernt?
+- Übersicht.
