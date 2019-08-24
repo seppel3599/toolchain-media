@@ -20,7 +20,7 @@ Das Ziel war die Erstellung einer Web-App mit der die Werkzeuge (Tools) der Mita
 
 Das Main-Git-Repo findet man unter: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain) 
 
-Ein zweites Git-Repo für Medieninhalte, Coperate Design und Bilder finder man unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
+Ein zweites Git-Repo für Medieninhalte, Coperate Design, Icons und sonstige Medien findet man unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
 
 Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Testseite](https://renick.io/) nutzen.
 
@@ -36,7 +36,7 @@ Der Name **Toolchain** kommt von der Funktion bzw. Sinn der App: Das Verketten b
 Ein Werkzeug zum Organisieren der in einem Unternehmen genutzten Software, Webseiten und anderer Tools.
 Die Objektorietierung findet in PHP statt. Als Framework haben wir uns für Laravel entschieden und einer SQL-Datenbank. Das Frontend soll mit JavaScript gebaut werden.
 
-Mookups zur App, die Mitte Mai 2019 entstanden:
+Mookups zur App, die Mitte Mai 2019 entstanden sind:
 ![Toolchain_Mookup_1](mookups/Toolchain_Mookup_1.svg)
 
 ![Toolchain_Mookup_2](mookups/Toolchain_Mookup_2.svg)
@@ -46,7 +46,7 @@ Mookups zur App, die Mitte Mai 2019 entstanden:
 
 ## 3. Anforderungen (Lastenheft)
 
-### Mindestumfang:
+### Mindestumfang
 
 Als Ziele bzw. Mindestfunktion um eine bereit einsatzfähige App zu erhalten, haben wir uns folgende Anforderungen überlegt:
 
@@ -54,28 +54,21 @@ Als Ziele bzw. Mindestfunktion um eine bereit einsatzfähige App zu erhalten, ha
   - erstellen, editieren und löschen von Einträgen für Werkzeuge mit Titel, Beschreibung, Bildern, Logos die jeder Nutzer selber anlegen kann
   - Globale Übersicht, kategorisiert
   - Exportfunktion
-  
-Weiterhin haben ebenfalls mögliche Erweiterungen formoliert die 
 
-### mögliche Erweiterungen:
+
+### Mögliche Erweiterungen
+  
+Weiterhin haben ebenfalls mögliche Erweiterungen formuliert die bei frühzeitiger Fertigstellung noch umgesetzt werden sollten:
 
 - Login mit Single Sign-On (Google)
 - completly responsive 
 - Integration einer personalisierten Suchmachine mit persönlichen Informationen (Cyberduck, Google)
 
 
-## 4. allgemein zum Projekt
-
-- WebApp mit dem Laravel-Framework
-- GitHub-Repo für die WebApp: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain)
-- GitHub-Repo für Dokumentation, CD, Icons, Medien: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
-
-
-
-## 5. Team-Mitglieder
+## 5. Team-Mitglieder und Entwicklung
 
 - Renick Büttner
-  - Teamleiter
+  - Teamleitung
   - Webdevelopment
   - Backend
 - Jonas Wagner
@@ -85,6 +78,10 @@ Weiterhin haben ebenfalls mögliche Erweiterungen formoliert die
   - Grafiken (Diagramme, Icons, ...)
   - Design (Präsentation, Mini-CD)
   - Dokumentation
+
+## 6. Aufgabenverteilung
+
+
 
 ### genaue Aufgabenverteilung:
 
