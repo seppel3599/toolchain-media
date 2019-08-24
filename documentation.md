@@ -2,7 +2,7 @@
 
 ## Gliederung:
 
-1. Gliederung
+1. Einleitung, Allgemeines
 2. Titel
 3. Skizze/Beschreibung
 4. Anforderungen (Lastenheft)
@@ -27,15 +27,16 @@ Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/
 
 ## 1. Titel
 
-**Toolchain**: Name kommt von der Funktion bzw. Sinn: Das Verketten von Werkzeugen.
+Der Name **Toolchain** kommt von der Funktion bzw. Sinn der App: Das Verketten bzw. zur Verfügung stellen von Werkzeugen.
 
 
 
 ## 2. Skizze und Beschreibung
 
 Ein Werkzeug zum Organisieren der in einem Unternehmen genutzten Software, Webseiten und anderer Tools.
-OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
+Die Objektorietierung findet in PHP statt. Als Framework haben wir uns für Laravel entschieden und einer SQL-Datenbank. Das Frontend soll mit JavaScript gebaut werden.
 
+Mookups zur App, die Mitte Mai 2019 entstanden:
 ![Toolchain_Mookup_1](mookups/Toolchain_Mookup_1.svg)
 
 ![Toolchain_Mookup_2](mookups/Toolchain_Mookup_2.svg)
@@ -43,17 +44,18 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 ![Toolchain_Mookup_3](mookups/Toolchain_Mookup_3.svg)
 
 
-
 ## 3. Anforderungen (Lastenheft)
 
 ### Mindestumfang:
 
-Das Ziel des Projektes war
+Als Ziele bzw. Mindestfunktion um eine bereit einsatzfähige App zu erhalten, haben wir uns folgende Anforderungen überlegt:
 
 - Web-App mit Laravel:
   - erstellen, editieren und löschen von Einträgen für Werkzeuge mit Titel, Beschreibung, Bildern, Logos die jeder Nutzer selber anlegen kann
   - Globale Übersicht, kategorisiert
   - Exportfunktion
+  
+Weiterhin haben ebenfalls mögliche Erweiterungen formoliert die 
 
 ### mögliche Erweiterungen:
 
