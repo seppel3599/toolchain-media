@@ -2,24 +2,36 @@
 
 ## Gliederung:
 
-1. Titel
-2. Skizze/Beschreibung
-3. Anforderungen (Lastenheft)
-4. allgemein zum Projekt
-5. Team-Mitglieder und Entwicklung (insbesondere Teamleiter)
-6. Archiketur (kurz!)
-7. Timeline Milestones
-8. Bug-Liste (optional)
+1. Gliederung
+2. Titel
+3. Skizze/Beschreibung
+4. Anforderungen (Lastenheft)
+5. allgemein zum Projekt
+6. Team-Mitglieder und Entwicklung (insbesondere Teamleiter)
+7. Archiketur (kurz!)
+8. Timeline Milestones
+9. Bug-Liste (optional)
+
+
+## 1. Einleitung
+
+Dieses Projekt entstand im Rahmen des Moduls "Objektorientierte Progr. und Entwickl. (3IM-OOP-IM)" des MedieninformatikStudium im 2. Semester. 
+Das Ziel war die Erstellung einer Web-App mit der die Werkzeuge (Tools) der Mitarbeiter eines Unternehmens erfasst werden sollen, sodass diese jederzeit nachgeschaut werden kann wer mit welchem Tool arbeitet und es für was nutzt.
+
+Das Main-Git-Repo findet man unter: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain) 
+
+Ein zweites Git-Repo für Medieninhalte, Coperate Design und Bilder finder man unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
+
+Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Testseite](https://renick.io/) nutzen.
+
+
+## 1. Titel
+
+**Toolchain**: Name kommt von der Funktion bzw. Sinn: Das Verketten von Werkzeugen.
 
 
 
-### 1. Titel
-
-Toolchain: Name von der Funktion. Das Verketten von Werkzeugen
-
-
-
-### 2. Skizze und Beschreibung
+## 2. Skizze und Beschreibung
 
 Ein Werkzeug zum Organisieren der in einem Unternehmen genutzten Software, Webseiten und anderer Tools.
 OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
@@ -32,23 +44,25 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 
 
 
-### 3. Anforderungen (Lastenheft)
+## 3. Anforderungen (Lastenheft)
 
-#### Mindestumfang:
+### Mindestumfang:
+
+Das Ziel des Projektes war
 
 - Web-App mit Laravel:
   - erstellen, editieren und löschen von Einträgen für Werkzeuge mit Titel, Beschreibung, Bildern, Logos die jeder Nutzer selber anlegen kann
   - Globale Übersicht, kategorisiert
   - Exportfunktion
 
-#### mögliche Erweiterungen:
+### mögliche Erweiterungen:
 
 - Login mit Single Sign-On (Google)
 - completly responsive 
 - Integration einer personalisierten Suchmachine mit persönlichen Informationen (Cyberduck, Google)
 
 
-### 4. allgemein zum Projekt
+## 4. allgemein zum Projekt
 
 - WebApp mit dem Laravel-Framework
 - GitHub-Repo für die WebApp: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain)
@@ -56,7 +70,7 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 
 
 
-### 5. Team-Mitglieder
+## 5. Team-Mitglieder
 
 - Renick Büttner
   - Teamleiter
@@ -70,7 +84,7 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
   - Design (Präsentation, Mini-CD)
   - Dokumentation
 
-#### genaue Aufgabenverteilung:
+### genaue Aufgabenverteilung:
 
 - Sebastian Walter
   - Entwurf und Umsetzung der Icons
@@ -99,13 +113,13 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 
 
 
-### 6. Architektur 
+## 6. Architektur 
 
 @Renick: Bitte **kurz** die Architektur beschreiben!
 
 
 
-### 7. Timeline, Milestones
+## 7. Timeline, Milestones
 
 - Anfang Mai: Projektidee durch Renick 
 - Anfang Mai: Projektentwicklung und Definition durch alle
@@ -124,7 +138,7 @@ OOP in PHP, Laravel Framework, Datenbank (SQL), Frontend mit JavaScript
 - Anfang August: Schreiben der Dokumentation
 - 
 
-### 8. Bug-Liste
+## 8. Bug-Liste
 
 Wenn es welche gibt! ;)
 
