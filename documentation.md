@@ -155,5 +155,6 @@ erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funk
 
 ## 8. Bug-Liste
 
-Wenn es welche gibt! ;)
-
+- RegEx in serviceEditor.js buggy aber erstmal funktionsfähig 
+- Die Kategorie auf der detailedView Seite wird immer klein Geschrieben (parsing bug)
+- Der eingebaute description Editor übergibt seine eigene Font und unsere wird Überschrieben
