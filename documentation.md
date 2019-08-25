@@ -25,13 +25,13 @@ Ein zweites Git-Repo für Medieninhalte, Coperate Design, Icons und sonstiges fi
 Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Testseite](https://renick.io/) nutzen. Für den Fall des lokalen Betriebs bitte die Voraussetzungen in der README beachten. 
 
 
-## 1. Titel
+## 2. Titel
 
 Der Name **Toolchain** leitet sich aus der Funktion der App ab: Das Verketten bzw. zur Verfügung stellen von Werkzeugen.
 
 
 
-## 2. Skizze und Beschreibung
+## 3. Skizze und Beschreibung
 
 Ein Werkzeug zum Organisieren der in einem Unternehmen genutzten Software, Webseiten und anderer Tools.
 Die Objektorietierung findet in PHP statt. Wir nutzen das PHP Framework Laravel und eine simple sqlite-Datenbak. Das Frontend wurde mit JavaScript gebaut.
@@ -44,7 +44,7 @@ Mookups zur App, die Mitte Mai 2019 entstanden sind:
 ![Toolchain_Mookup_3](mookups/Toolchain_Mookup_3.svg)
 
 
-## 3. Anforderungen (Lastenheft)
+## 4. Anforderungen (Lastenheft)
 
 ### Mindestumfang
 
@@ -92,6 +92,19 @@ Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einig
 
 ### genaue Aufgabenverteilung:
 
+- Renick Büttner
+  - Git-Repo
+    - Initialisieren und Verwalten
+  - Projektmangament - Webdev
+    - Aufgaben Definition und Verteilung
+  - Entwurf - Prototyp
+  - Projektidee
+- Jonas Wagner
+  - Frontend
+    - CSS und JS
+  - Google SSO
+  - Wrting simple Tests
+  - Erweiterung um kleinere Features
 - Sebastian Walter
   - Entwurf und Umsetzung der Icons
     - Navigation
@@ -106,30 +119,16 @@ Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einig
   - Erstellen der Präsentation
     - Schreiben
     - Formatierung und Layouten
-- Renick Büttner
-  - Git-Repo
-    - Initialisieren und Verwalten
-  - Projektmangament - Webdev
-    - Aufgaben Definition und Verteilung
-  - Entwurf - Prototyp
-  - Projektidee
-- Jonas Wagner
-  - Frontend
-    - CSS und JS
-  - Google SSO
-  - Wrting simple Tests
-  - Erweiterung um kleinere Features
 
 
-
-## 6. Architektur 
+## 7. Architektur 
 
 @Renick: Bitte **kurz** die Architektur beschreiben!
 @Sebastian: unbedingt noch die UML-Diagramme ergänzen
 
 
 
-## 7. Timeline, Milestones
+## 8. Timeline, Milestones
 
 Die Timeline lässt sich am besten über die Github Commits verfolgen.
 
@@ -153,10 +152,9 @@ Die Timeline lässt sich am besten über die Github Commits verfolgen.
 
 erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funktion, 
 
-## 8. Bug-Liste
+## 9. Bug-Liste
 
 - RegEx in serviceEditor.js buggy aber erstmal funktionsfähig 
 - Die Kategorie auf der detailedView Seite wird immer klein Geschrieben (parsing bug)
 - Der eingebaute description Editor übergibt seine eigene Font und unsere wird Überschrieben
 - Kein direkter Bug, aber Kategorien müssen gleich geschrieben werden damit die jeweiligen Services in der selben Kategorie landen --> hier wäre ein dropdown Menü in der Editor Seite angebracht, durch welche man einen Service einer bereits bestehenden Kategorie zuordnen kann
-- 
