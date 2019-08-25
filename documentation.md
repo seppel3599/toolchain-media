@@ -67,6 +67,8 @@ Weiterhin haben ebenfalls mögliche Erweiterungen formuliert die bei frühzeitig
 
 ## 5. Team-Mitglieder und Entwicklung
 
+**@Renick @Jonas Bitte ergänzen/korrigieren!**
+
 Das Team setzt sich folgendermaßen mit zusammen: 
 
 - Renick Büttner
@@ -83,6 +85,8 @@ Das Team setzt sich folgendermaßen mit zusammen:
   - Dokumentation
 
 ## 6. Aufgabenverteilung
+
+**@Renick @Jonas Bitte ergänzen/korrigieren!**
 
 Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Das Herr Büttner die Aufgaben des Teamleiters/Projektmanagers übernimmt war aufgrund seiner Erfahrung bei solchen Projekten. Weiterhin haben Herr Wagner und Herr Büttner bereits eingehende Erfahrung mit PHP bzw. direkt mit dem Laravel Framework. 
 
@@ -123,6 +127,8 @@ Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einig
 
 
 ## 7. Timeline, Milestones
+
+**@Renick @Jonas Bitte ergänzen/korrigieren!**
 
 - Anfang Mai: Projektidee durch Renick 
 - Anfang Mai: Projektentwicklung und Definition durch alle
