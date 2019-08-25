@@ -15,26 +15,26 @@
 
 ## 1. Einleitung
 
-Dieses Projekt entstand im Rahmen des Moduls "Objektorientierte Progr. und Entwickl. (3IM-OOP-IM)" des MedieninformatikStudium im 2. Semester. 
-Das Ziel war die Erstellung einer Web-App mit der die Werkzeuge (Tools) der Mitarbeiter eines Unternehmens erfasst werden sollen, sodass diese jederzeit nachgeschaut werden kann wer mit welchem Tool arbeitet und es für was nutzt.
+Dieses Projekt entstand im Rahmen des Moduls "Objektorientierte Progr. und Entwickl. (3IM-OOP-IM)" des Medieninformatik Studiums im 2. Semester. 
+Das Ziel war die Erstellung einer Web-App, mit welcher die Werkzeuge (Tools) eines Unternehmens erfasst werden können. In Folge dessen kann jeder Mitarbeiter alle genutzen Tools auf einen Blick erfassen und nutzen.
 
 Das Main-Git-Repo findet man unter: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain) 
 
-Ein zweites Git-Repo für Medieninhalte, Coperate Design, Icons und sonstige Medien findet man unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
+Ein zweites Git-Repo für Medieninhalte, Coperate Design, Icons und sonstiges findet man unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
 
 Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Testseite](https://renick.io/) nutzen. Für den Fall des lokalen Betriebs bitte die Voraussetzungen in der README beachten. 
 
 
 ## 1. Titel
 
-Der Name **Toolchain** kommt von der Funktion bzw. Sinn der App: Das Verketten bzw. zur Verfügung stellen von Werkzeugen.
+Der Name **Toolchain** leitet sich aus der Funktion der App ab: Das Verketten bzw. zur Verfügung stellen von Werkzeugen.
 
 
 
 ## 2. Skizze und Beschreibung
 
 Ein Werkzeug zum Organisieren der in einem Unternehmen genutzten Software, Webseiten und anderer Tools.
-Die Objektorietierung findet in PHP statt. Als Framework haben wir uns für Laravel entschieden und einer SQL-Datenbank. Das Frontend soll mit JavaScript gebaut werden.
+Die Objektorietierung findet in PHP statt. Wir nutzen das PHP Framework Laravel und eine simple sqlite-Datenbak. Das Frontend wurde mit JavaScript gebaut.
 
 Mookups zur App, die Mitte Mai 2019 entstanden sind:
 ![Toolchain_Mookup_1](mookups/Toolchain_Mookup_1.svg)
@@ -48,8 +48,6 @@ Mookups zur App, die Mitte Mai 2019 entstanden sind:
 
 ### Mindestumfang
 
-Als Ziele bzw. Mindestfunktion um eine bereit einsatzfähige App zu erhalten, haben wir uns folgende Anforderungen überlegt:
-
 - Web-App mit Laravel:
   - erstellen, editieren und löschen von Einträgen für Werkzeuge mit Titel, Beschreibung, Bildern, Logos die jeder Nutzer selber anlegen kann
   - Globale Übersicht, kategorisiert
@@ -58,7 +56,7 @@ Als Ziele bzw. Mindestfunktion um eine bereit einsatzfähige App zu erhalten, ha
 
 ### Mögliche Erweiterungen
   
-Weiterhin haben ebenfalls mögliche Erweiterungen formuliert die bei frühzeitiger Fertigstellung noch umgesetzt werden sollten:
+Weiterhin haben wir ebenfalls mögliche Erweiterungen formuliert die bei frühzeitiger Fertigstellung noch umgesetzt werden sollten:
 
 - Login mit Single Sign-On (Google)
 - completly responsive 
@@ -78,6 +76,8 @@ Das Team setzt sich folgendermaßen mit zusammen:
 - Jonas Wagner
   - Webdevelopment
   - Frontend
+  - Testing
+  - Bug fixing
 - Sebastian Walter
   - Grafiken (Diagramme, Icons, ...)
   - Design (Mini-CD)
@@ -116,6 +116,9 @@ Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einig
 - Jonas Wagner
   - Frontend
     - CSS und JS
+  - Google SSO
+  - Wrting simple Tests
+  - Erweiterung um kleinere Features
 
 
 
@@ -127,6 +130,8 @@ Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einig
 
 
 ## 7. Timeline, Milestones
+
+Die Timeline lässt sich am besten über die Github Commits verfolgen.
 
 **@Renick @Jonas Bitte ergänzen/korrigieren!**
 
