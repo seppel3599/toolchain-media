@@ -158,3 +158,5 @@ erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funk
 - RegEx in serviceEditor.js buggy aber erstmal funktionsfähig 
 - Die Kategorie auf der detailedView Seite wird immer klein Geschrieben (parsing bug)
 - Der eingebaute description Editor übergibt seine eigene Font und unsere wird Überschrieben
+- Kein direkter Bug, aber Kategorien müssen gleich geschrieben werden damit die jeweiligen Services in der selben Kategorie landen --> hier wäre ein dropdown Menü in der Editor Seite angebracht, durch welche man einen Service einer bereits bestehenden Kategorie zuordnen kann
+- 
