@@ -1,4 +1,5 @@
 # Toolchain
+###Objektorientierte Progr. und Entwickl. (3IM-OOP-IM)
 
 ## Gliederung:
 
@@ -6,9 +7,9 @@
 2. Titel
 3. Skizze/Beschreibung
 4. Anforderungen (Lastenheft)
-5. allgemein zum Projekt
-6. Team-Mitglieder und Entwicklung (insbesondere Teamleiter)
-7. Archiketur (kurz!)
+5. Team-Mitglieder und Entwicklung
+6. Aufgabenverteilung
+7. Archiketur
 8. Timeline Milestones
 9. Bugs, Verbesserungen
 
@@ -87,7 +88,13 @@ Das Team setzt sich folgendermaßen mit zusammen:
 
 **@Renick @Jonas Bitte ergänzen/korrigieren!**
 
-Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Das Herr Büttner die Aufgaben des Teamleiters/Projektmanagers übernimmt war aufgrund seiner Erfahrung bei solchen Projekten. Weiterhin haben Herr Wagner und Herr Büttner bereits eingehende Erfahrung mit PHP.
+Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Das Renick die Aufgaben des 
+Teamleiters/Projektmanagers übernimmt war aufgrund seiner Erfahrung bei solchen Projekten klar. Weiterhin haben Jonas 
+und Renick bereits eingehende Erfahrung mit PHP bzw. direkt mit dem Laravel Framework. Sie fiel die Programmierung zu 
+Renick und Jonas. Für ein Projekt dieses Umfanges wollten wir weiterhin ungern die Programmierung auf alle 
+Teammitglieder aufteilen, um Absprachen und Rückfragen nicht ins unermessliche laufen zu lassen. So fielen die 
+Rahmentätigkeiten zu Sebastian. Der sich im Folgenden um die Gestaltung der App, Design, Dokumentation, Absprachen und 
+auch um die Abgabe kümmerte.
 
 ### genaue Aufgabenverteilung:
 
@@ -106,11 +113,9 @@ Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einig
   - Erweiterung um kleinere Features
 - Sebastian Walter
   - Entwurf und Umsetzung der Icons
-    - Navigation
-    - ??Schnelleditierungsmenü
+    - Navigation, Button, Schnelleditierungsmenü
   - Mini-CD
-    - Schriftarten festlegen
-    - Farbtheme festlegen
+    - Schriftarten festlegeFarbtheme festlegen
     - Logo und Schriftzug entwerfen und umsetzen
   - Erstellen der Dokumentation
     - Schreiben
@@ -155,6 +160,8 @@ Die Timeline lässt sich am besten über die Github Commits verfolgen.
 - Juli: Entwurf und Umsetzung der Icons durch Sebastian
 - Juli: Fortsetzen der Arbeit an der Web-App durch Renick und Jonas
 - Anfang August: Schreiben der Dokumentation
+- Ende August: Letzte Abstimmungen mit Professor Hara
+- Ende August: Abgabe
 
 erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funktion, 
 

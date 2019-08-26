@@ -5,23 +5,29 @@
 ###Sprechanteile
 
 - Renick Büttner
+  - Was
   - Wer
     - Teammitglieder
     - Aufgbenverteilung 
   - Idee und Mutivation
-    - Vorteile
+  ??- Vorteile der Nutzung??
 - Jonas Wagner
   - Probleme
     - Zeit (Prüfungen, Urlaub, Praxisaufgaben)
     - Absprachen
     - Aufgabenverteilung
     - kleine Streitigkeiten
-  - Versuch der Bewältigung
 - Sebastian Walter
-  - Was haben wir gelernt?
+  - Was haben wir gelernt? / Bewältigung der Probleme und Lösung
+    - Projektmanagment
+    - Arbeit im Team
+    - Streitigkeiten vorbeugen
+    - Zeitmanagment
   
-Überblick, Wer
+**??Überblick??**  
   
+Gliederung von Professor Hara: 
+
 - Was?
 - Wer?
 - Wie?
