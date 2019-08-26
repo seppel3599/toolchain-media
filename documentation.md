@@ -10,7 +10,7 @@
 6. Team-Mitglieder und Entwicklung (insbesondere Teamleiter)
 7. Archiketur (kurz!)
 8. Timeline Milestones
-9. Bug-Liste (optional)
+9. Bugs, Verbesserungen
 
 
 ## 1. Einleitung
@@ -27,8 +27,7 @@ Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/
 
 ## 2. Titel
 
-Der Name **Toolchain** leitet sich aus der Funktion der App ab: Das Verketten bzw. zur Verfügung stellen von Werkzeugen.
-
+Der Name **Toolchain** leitet sich aus der Funktion der App ab: Das Verketten bzw. zur Verfügung stellen von Werkzeugen. Dabei geht es zentral darum, eine Oberfläche zu bieten, welche eine Übersicht über alle Dienste und Werkzeuge einer Firma verfügt. Über diese Verlinkungen lassen sich Tools wie Jira, Confluence, Github etc. auflisten, sowie individuell erläutern. Eine Liste dieser Dienste kann zudem gedruckt werden, auch als PDF über den Browser, um z.B. Neuankömmlingen ein paar Anhaltepunkte zu geben, wo sich was im Unternehmen abspielt. Zum Beispiel die Entwicklung über Github, Bug Tickets und Feature Stories in Jira, ...
 
 
 ## 3. Skizze und Beschreibung
@@ -88,7 +87,7 @@ Das Team setzt sich folgendermaßen mit zusammen:
 
 **@Renick @Jonas Bitte ergänzen/korrigieren!**
 
-Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Das Herr Büttner die Aufgaben des Teamleiters/Projektmanagers übernimmt war aufgrund seiner Erfahrung bei solchen Projekten. Weiterhin haben Herr Wagner und Herr Büttner bereits eingehende Erfahrung mit PHP bzw. direkt mit dem Laravel Framework. 
+Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Das Herr Büttner die Aufgaben des Teamleiters/Projektmanagers übernimmt war aufgrund seiner Erfahrung bei solchen Projekten. Weiterhin haben Herr Wagner und Herr Büttner bereits eingehende Erfahrung mit PHP.
 
 ### genaue Aufgabenverteilung:
 
@@ -103,7 +102,7 @@ Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einig
   - Frontend
     - CSS und JS
   - Google SSO
-  - Wrting simple Tests
+  - Blackbox tests
   - Erweiterung um kleinere Features
 - Sebastian Walter
   - Entwurf und Umsetzung der Icons
@@ -123,7 +122,14 @@ Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einig
 
 ## 7. Architektur 
 
-@Renick: Bitte **kurz** die Architektur beschreiben!
+Die Web-App baut auf dem Open Source Framwork Laravel auf, und speichert alle Inhalte im Flat-File Format in einer Ordnerstruktur. Ein Im- und Export der Inhalte ist deswegen einfach zu handhaben. Als Datenaustauschformat kommt JSON zum Einsatz. Der Editor läuft über JavaScript im Browser und sendet Anfragen mit einem serialisierten JSON-Objekt an das Backend. Hierfür gibt es eine rudimentäre API, welche sich die HTTP-Methoden zu nutze macht.
+
+Die Authentifizierung erfolgt über ein Single Sign-on mit einem Google Account. Es können in einer Whitelist-Datei alle Email-Adressen hinterlegt werden, die sich in der App einloggen dürfen. Anhang dieser Liste wird auch unterschieden in Personen, die Inhalte sehen und erstellen dürfen.
+
+Das Backend rendert alle Seiten mithilfe von Blade-Templates, und liefert ein JavaScript bundle dazu aus. Alle Inhalte, die auf einer Seite benötigt werden, initialisieren sich dann beim Laden der Seite im Client.
+
+Im JavaScript-Code gibt es einen API-Client, der zentral mit dem Backend interagieren kann. Im Frontend wird das Bootstrap Framework, sowie Axios (Xhttprequest Library) verwendet.
+
 @Sebastian: unbedingt noch die UML-Diagramme ergänzen
 
 
@@ -152,9 +158,7 @@ Die Timeline lässt sich am besten über die Github Commits verfolgen.
 
 erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funktion, 
 
-## 9. Bug-Liste
+## 9. Bugs, Verbesserungen
 
-- RegEx in serviceEditor.js buggy aber erstmal funktionsfähig 
-- Die Kategorie auf der detailedView Seite wird immer klein Geschrieben (parsing bug)
-- Der eingebaute description Editor übergibt seine eigene Font und unsere wird Überschrieben
-- Kein direkter Bug, aber Kategorien müssen gleich geschrieben werden damit die jeweiligen Services in der selben Kategorie landen --> hier wäre ein dropdown Menü in der Editor Seite angebracht, durch welche man einen Service einer bereits bestehenden Kategorie zuordnen kann
+- TinyMCE hat noch keinen Support für die Toolchain-Standardschrift
+- Verbesserungsvorschlag: Autocomplete für Kategorien, damit Dopplungen ähnlicher Kategorien vermieden werden
