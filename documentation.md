@@ -1,6 +1,6 @@
-# Toolchain
+# Toolchain-Dokumentation
 
-###Objektorientierte Progr. und Entwickl. (3IM-OOP-IM)
+###Leistung für das Modul: Objektorientierte Progr. und Entwickl. (3IM-OOP-IM)
 
 ## Gliederung:
 
@@ -22,14 +22,16 @@ Das Ziel war die Erstellung einer Web-App, mit welcher die Werkzeuge (Tools) ein
 
 Das Main-Git-Repo findet man unter: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain) 
 
-Ein zweites Git-Repo für Medieninhalte, Coperate Design, Icons und sonstiges findet man unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
+Ein zweites Git-Repo für Medieninhalte, Coperate Design, Icons und Sonstiges findet man unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
 
+**@Renick Testseiten-Link ergänzen**
+ 
 Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Testseite](https://renick.io/) nutzen. Für den Fall des lokalen Betriebs bitte die Voraussetzungen in der README beachten. 
 
 
 ## 2. Titel
 
-Der Name **Toolchain** leitet sich aus der Funktion der App ab: Das Verketten bzw. zur Verfügung stellen von Werkzeugen. Dabei geht es zentral darum, eine Oberfläche zu bieten, welche eine Übersicht über alle Dienste und Werkzeuge einer Firma verfügt. Über diese Verlinkungen lassen sich Tools wie Jira, Confluence, Github etc. auflisten, sowie individuell erläutern. Eine Liste dieser Dienste kann zudem gedruckt werden, auch als PDF über den Browser, um z.B. Neuankömmlingen ein paar Anhaltepunkte zu geben, wo sich was im Unternehmen abspielt. Zum Beispiel die Entwicklung über Github, Bug Tickets und Feature Stories in Jira, ...
+Der Name **Toolchain** leitet sich aus der Funktion der App ab: Das Verketten bzw. Zurverfügungstellen von Werkzeugen. Dabei geht es zentral darum, eine Oberfläche zu bieten, welche eine Übersicht über alle Dienste und Werkzeuge einer Firma verfügt. Über diese Verlinkungen lassen sich Tools wie Jira, Confluence, Github etc. auflisten, sowie individuell erläutern. Eine Liste dieser Dienste kann zudem gedruckt werden, auch als PDF über den Browser, um z.B. Neuankömmlingen ein paar Anhaltepunkte zu geben, wo sich was im Unternehmen abspielt. Zum Beispiel die Entwicklung über Github, Bug Tickets und Feature Stories in Jira, ...
 
 
 ## 3. Skizze und Beschreibung
@@ -91,9 +93,9 @@ Das Team setzt sich folgendermaßen mit zusammen:
 
 Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Das Renick die Aufgaben des 
 Teamleiters/Projektmanagers übernimmt war aufgrund seiner Erfahrung bei solchen Projekten klar. Weiterhin haben Jonas 
-und Renick bereits eingehende Erfahrung mit PHP bzw. direkt mit dem Laravel Framework. Sie fiel die Programmierung zu 
-Renick und Jonas. Für ein Projekt dieses Umfanges wollten wir weiterhin ungern die Programmierung auf alle 
-Teammitglieder aufteilen, um Absprachen und Rückfragen nicht ins unermessliche laufen zu lassen. So fielen die 
+und Renick bereits eingehende Erfahrung mit PHP bzw. direkt mit dem Laravel Framework. So fiel die Programmierung zu 
+Renick und Jonas. Für ein Projekt dieses Umfanges wollten wir weiterhin ungern den Programmieraufwand auf alle 
+Teammitglieder verteilen, um Absprachen und Rückfragen nicht ins unermessliche laufen zu lassen. So fielen die 
 Rahmentätigkeiten zu Sebastian. Der sich im Folgenden um die Gestaltung der App, Design, Dokumentation, Absprachen und 
 auch um die Abgabe kümmerte.
 
@@ -101,10 +103,10 @@ auch um die Abgabe kümmerte.
 
 - Renick Büttner
   - Git-Repo
-    - Initialisieren und Verwalten
-  - Projektmangament - Webdev
+    - Initialisierung und Verwaltung
+  - Projektmangament - Webdevelopment
     - Aufgaben Definition und Verteilung
-  - Entwurf - Prototyp
+  - Entwurf des Prototyps/Mookups
   - Projektidee
 - Jonas Wagner
   - Frontend
@@ -119,20 +121,18 @@ auch um die Abgabe kümmerte.
     - Schriftarten, Farbtheme festlegen
     - Logo und Schriftzug entwerfen und umsetzen
   - Erstellen der Dokumentation
-    - Schreiben
-    - Formatierung und Layouten
   - Erstellen der Präsentation
-    - Schreiben
-    - Formatierung und Layouten
+    - Sprechanteile und Themen festlegen
+    - Formatierung und Layout
 
 
 ## 7. Architektur 
 
 Die Web-App baut auf dem Open Source Framework Laravel auf, und speichert alle Inhalte im Flat-File Format in einer Ordnerstruktur. Ein Im- und Export der Inhalte ist deswegen einfach zu handhaben. Als Datenaustauschformat kommt JSON zum Einsatz. Der Editor läuft über JavaScript im Browser und sendet Anfragen mit einem serialisierten JSON-Objekt an das Backend. Hierfür gibt es eine rudimentäre API, welche sich die HTTP-Methoden zunutze macht.
 
-Die Authentifizierung erfolgt über ein Single Sign-on mit einem Google Account. Es können in einer Whitelist-Datei alle Email-Adressen hinterlegt werden, die sich in der App einloggen dürfen. Anhang dieser Liste wird auch unterschieden in Personen, die Inhalte sehen und erstellen dürfen.
+Die Authentifizierung erfolgt über ein Single Sign-on mit einem Google Account. Es können in einer Whitelist-Datei alle Email-Adressen hinterlegt werden, die sich in der App einloggen dürfen. Anhand dieser Liste wird auch unterschieden in Personen, die Inhalte sehen und erstellen dürfen.
 
-Das Backend rendert alle Seiten mithilfe von Blade-Templates, und liefert ein JavaScript bundle dazu aus. Alle Inhalte, die auf einer Seite benötigt werden, initialisieren sich dann beim Laden der Seite im Client.
+Das Backend rendert alle Seiten mithilfe von Blade-Templates, und liefert ein JavaScript-Bundle dazu aus. Alle Inhalte, die auf einer Seite benötigt werden, initialisieren sich dann beim Laden der Seite im Client.
 
 Im JavaScript-Code gibt es einen API-Client, der zentral mit dem Backend interagieren kann. Im Frontend wird das Bootstrap Framework, sowie Axios (Xhttprequest Library) verwendet.
 
@@ -149,22 +149,23 @@ Die Timeline lässt sich am besten über die Github Commits verfolgen.
 - Anfang Mai: Projektidee durch Renick 
 - Anfang Mai: Projektentwicklung und Definition durch alle
 - Anfang Mai: Absprache mit Professor Hara und Input für die Idee
-- Anfang Mai: Github-Repository erstellen und initialisieren durch Renick ⇒ [Toolchain](https://github.com/renickbuettner/toolchain/issues)
-- Mitte Mai: Entwurf von Mookups
+- 6.Mai: Github-Repository erstellen und initialisieren durch Renick ⇒ [Toolchain](https://github.com/renickbuettner/toolchain/issues)
+- Mitte Mai: Entwurf der Mookups
 - Mitte Mai: Definition der Anforderungen -> kleines Lastenheft
-- Mitte Mai: Erste Aufgaben werden in Notion definieren und verteilt
+- Mitte Mai: Erste Aufgaben werden in Notion definiert und verteilt
 - Mitte Mai: Abgabe der Projektidee an Professor Hara
 - Erste Commits durch Renick
-  - Erstellen der Login-Maske
-- Erstellen eines eigenen Repositories für die Medieninhalte, Dokumentation und Informationen zum Design durch Sebastian ⇒ [Toolchain-Media](https://github.com/seppel3599/toolchain-media)
-- Längere Pause: durch Prüfungen
+    - Laravel-Basis importieren
+    - Erstellen der Login-Maske
+- 18.Juni: Erstellen eines eigenen Repositories für die Medieninhalte, Dokumentation und Informationen zum Design durch Sebastian ⇒ [Toolchain-Media](https://github.com/seppel3599/toolchain-media)
+- Danach folt eine längere Pause aufgrund der Klausurvorbereitung
 - Juli: Entwurf und Umsetzung der Icons durch Sebastian
 - Juli: Fortsetzen der Arbeit an der Web-App durch Renick und Jonas
 - Anfang August: Schreiben der Dokumentation
 - Ende August: Letzte Abstimmungen mit Professor Hara
 - Ende August: Abgabe
 
-erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funktion, 
+@Renick @Jonas: erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funktion, 
 
 ## 9. Bugs, Verbesserungen
 
