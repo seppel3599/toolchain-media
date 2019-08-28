@@ -10,7 +10,7 @@
 4. Anforderungen (Lastenheft)
 5. Team-Mitglieder und Entwicklung
 6. Aufgabenverteilung
-7. Archiketur
+7. Architektur
 8. Timeline Milestones
 9. Bugs, Verbesserungen
 
@@ -18,7 +18,7 @@
 ## 1. Einleitung
 
 Dieses Projekt entstand im Rahmen des Moduls "Objektorientierte Progr. und Entwickl. (3IM-OOP-IM)" des Medieninformatik Studiums im 2. Semester. 
-Das Ziel war die Erstellung einer Web-App, mit welcher die Werkzeuge (Tools) eines Unternehmens erfasst werden können. In Folge dessen kann jeder Mitarbeiter alle genutzen Tools auf einen Blick erfassen und nutzen.
+Das Ziel war die Erstellung einer Web-App, mit welcher die Werkzeuge (Tools) eines Unternehmens erfasst werden können. In Folge dessen kann jeder Mitarbeiter alle genutzten Tools auf einen Blick erfassen und nutzen.
 
 Das Main-Git-Repo findet man unter: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain) 
 
@@ -35,7 +35,7 @@ Der Name **Toolchain** leitet sich aus der Funktion der App ab: Das Verketten bz
 ## 3. Skizze und Beschreibung
 
 Ein Werkzeug zum Organisieren der in einem Unternehmen genutzten Software, Webseiten und anderer Tools.
-Die Objektorietierung findet in PHP statt. Wir nutzen das PHP Framework Laravel und eine simple sqlite-Datenbak. Das Frontend wurde mit JavaScript gebaut.
+Die Objektorientierung findet in PHP statt. Wir nutzen das PHP Framework Laravel und eine simple sqlite-Datenbak. Das Frontend wurde mit JavaScript gebaut.
 
 Mookups zur App, die Mitte Mai 2019 entstanden sind:
 ![Toolchain_Mookup_1](mookups/Toolchain_Mookup_1.svg)
@@ -56,12 +56,12 @@ Mookups zur App, die Mitte Mai 2019 entstanden sind:
 
 
 ### Mögliche Erweiterungen
-  
+
 Weiterhin haben wir ebenfalls mögliche Erweiterungen formuliert die bei frühzeitiger Fertigstellung noch umgesetzt werden sollten:
 
 - Login mit Single Sign-On (Google)
-- completly responsive 
-- Integration einer personalisierten Suchmachine mit persönlichen Informationen (Cyberduck, Google)
+- completly responsive
+- Integration einer personalisierten Suchmaschine mit persönlichen Informationen (Cyberduck, Google)
 
 
 ## 5. Team-Mitglieder und Entwicklung
@@ -110,13 +110,13 @@ auch um die Abgabe kümmerte.
   - Frontend
     - CSS und JS
   - Google SSO
-  - Blackbox tests
+  - Blackbox-Tests
   - Erweiterung um kleinere Features
 - Sebastian Walter
   - Entwurf und Umsetzung der Icons
     - Navigation, Button, Schnelleditierungsmenü
   - Mini-CD
-    - Schriftarten festlegeFarbtheme festlegen
+    - Schriftarten, Farbtheme festlegen
     - Logo und Schriftzug entwerfen und umsetzen
   - Erstellen der Dokumentation
     - Schreiben
@@ -128,7 +128,7 @@ auch um die Abgabe kümmerte.
 
 ## 7. Architektur 
 
-Die Web-App baut auf dem Open Source Framwork Laravel auf, und speichert alle Inhalte im Flat-File Format in einer Ordnerstruktur. Ein Im- und Export der Inhalte ist deswegen einfach zu handhaben. Als Datenaustauschformat kommt JSON zum Einsatz. Der Editor läuft über JavaScript im Browser und sendet Anfragen mit einem serialisierten JSON-Objekt an das Backend. Hierfür gibt es eine rudimentäre API, welche sich die HTTP-Methoden zu nutze macht.
+Die Web-App baut auf dem Open Source Framework Laravel auf, und speichert alle Inhalte im Flat-File Format in einer Ordnerstruktur. Ein Im- und Export der Inhalte ist deswegen einfach zu handhaben. Als Datenaustauschformat kommt JSON zum Einsatz. Der Editor läuft über JavaScript im Browser und sendet Anfragen mit einem serialisierten JSON-Objekt an das Backend. Hierfür gibt es eine rudimentäre API, welche sich die HTTP-Methoden zunutze macht.
 
 Die Authentifizierung erfolgt über ein Single Sign-on mit einem Google Account. Es können in einer Whitelist-Datei alle Email-Adressen hinterlegt werden, die sich in der App einloggen dürfen. Anhang dieser Liste wird auch unterschieden in Personen, die Inhalte sehen und erstellen dürfen.
 
@@ -148,11 +148,11 @@ Die Timeline lässt sich am besten über die Github Commits verfolgen.
 
 - Anfang Mai: Projektidee durch Renick 
 - Anfang Mai: Projektentwicklung und Definition durch alle
-- Anfang Mai: Apsrache mit Professor Hara und Input für die Idee
-- Anfang Mai: Github-Repository erstellen und initalisieren durch Renick ⇒ [Toolchain](https://github.com/renickbuettner/toolchain/issues)
+- Anfang Mai: Absprache mit Professor Hara und Input für die Idee
+- Anfang Mai: Github-Repository erstellen und initialisieren durch Renick ⇒ [Toolchain](https://github.com/renickbuettner/toolchain/issues)
 - Mitte Mai: Entwurf von Mookups
 - Mitte Mai: Definition der Anforderungen -> kleines Lastenheft
-- Mitte Mai: Erste Aufgaben werden in Notion definitiert und verteilt
+- Mitte Mai: Erste Aufgaben werden in Notion definieren und verteilt
 - Mitte Mai: Abgabe der Projektidee an Professor Hara
 - Erste Commits durch Renick
   - Erstellen der Login-Maske
