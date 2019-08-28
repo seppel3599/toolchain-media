@@ -170,8 +170,6 @@ erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funk
 
 - TinyMCE hat noch keinen Support für die Toolchain-Standardschrift
 - Verbesserungsvorschlag:   
-      
-      - Autocomplete für Kategorien, damit Dopplungen ähnlicher Kategorien vermieden werden
-      
-      - Link zum Service auf dessen personalisierter Service Seite
+    - Autocomplete für Kategorien, damit Dopplungen ähnlicher Kategorien vermieden werden
+    - Link zum Service auf dessen personalisierter Service Seite
         
