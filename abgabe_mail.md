@@ -18,6 +18,12 @@ Die Dokumentation finden Sie auch unter: [seppel3599/toolchain-media](https://gi
 
 Die Kommentare zur Präsentation befinden sich unter [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media/blob/master/praesentation.md)
 
+@ALLE: noch ergänzen
+
+Um auf die [Demoseite](https://toolchain.renick.io/) zugreifen zu können, sind hier die Login-Daten:
+- E-Mail-Adresse: 
+- Passwort:
+
 
 
 Beste Grüße

@@ -26,7 +26,7 @@ Ein zweites Git-Repo für Medieninhalte, Coperate Design, Icons und Sonstiges fi
 
 **@Renick Testseiten-Link ergänzen**
  
-Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Demoseite](https://toolchain.renick.io/) nutzen. Für den Fall des lokalen Betriebs bitte die Voraussetzungen in der README beachten. 
+Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Demoseite](https://toolchain.renick.io/) nutzen, die Login-Daten finden Sie in unserer Abgabe-Mail. Für den Fall des lokalen Betriebs bitte die Voraussetzungen in der README beachten. 
 
 
 ## 2. Titel
