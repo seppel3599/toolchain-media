@@ -1,4 +1,4 @@
-Abgabe OOP-Projekt: Toolchain von Renick Büttner, Jonas Wagner und Sebastian Walter
+Abgabe OOP-Projekt: "Toolchain", von Renick Büttner, Jonas Wagner und Sebastian Walter
 
 
 
@@ -6,13 +6,13 @@ Guten Tag Professor Hara,
 
 
 
-hier ist unsere Abgabe für das OOP Projekt. Die "Abgabe_Toolchain.zip" aus dem Anhang hat das Passwort "sicheresPasswort".
-Sie beinhalten die Dateien der beiden Repos.
-Weiterhin haben wir als **Backup** hier noch die Git-Repos, die mittlerweile öffentlich sind: 
+hier ist unsere Abgabe für das OOP Projekt. Die Zip-Datei "Abgabe_Toolchain.zip" aus dem Anhang, hat das Passwort: "sicheresPasswort".
+Sie beinhaltet die Dateien unserer Zwei Repositorys. Eines dieser Repos beinhaltet unsere Anwendung, das Andere alle Medieninhalte und die Dokumentation.
+Die Repos haben wir als **Backup** hier nochmal auf "github" verlinkt: 
 
-Die eigentliche App mit Installationsanweisungen usw.: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain)
+Die App mit Installationsanweisungen (README.md): [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain)
 
-Zusätzliches Repo für Medieninhalte, Dokumentation, Icons usw.: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
+Das Repo für Medieninhalte, Dokumentation, Icons uvm.: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
 
 Die Dokumentation finden Sie auch unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media/blob/master/documentation.md)
 
@@ -26,6 +26,6 @@ Um auf die [Demoseite](https://toolchain.renick.io/) zugreifen zu können, sind 
 
 
 
-Beste Grüße
+Liebe Grüße,  
 
 Renick Büttner, Jonas Wagner und Sebastian Walter
