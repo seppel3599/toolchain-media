@@ -136,8 +136,9 @@ Das Backend rendert alle Seiten mithilfe von Blade-Templates, und liefert ein Ja
 
 Im JavaScript-Code gibt es einen API-Client, der zentral mit dem Backend interagieren kann. Im Frontend wird das Bootstrap Framework, sowie Axios (Xhttprequest Library) verwendet.
 
-@Sebastian: unbedingt noch die UML-Diagramme ergänzen
 
+Klassendiagramm der implemetierten Klassen der App
+![Klassendiagramm](Klassendiagramm_Toolchain.png)
 
 
 ## 8. Timeline, Milestones
