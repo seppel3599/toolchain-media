@@ -85,8 +85,8 @@ Das Team setzt sich folgendermaßen zusammen:
   - Dokumentation
 - Sebastian Walter
   - Dokumentation
-  - Grafiken (Diagramme, Icons, ...)
-  - Design (Mini-CD)
+  - Grafiken
+  - Design
   - Präsentation
 
 ## 6. Aufgabenverteilung
@@ -104,16 +104,21 @@ Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einig
     - Aufgaben Definition und Verteilung
   - Entwurf des Prototyps/Mookups
   - Projektidee
+  - Dokumentation 
+    - Gegenlesen
 - Jonas Wagner
   - Frontend
     - CSS und JS
   - Google SSO
   - Blackbox-Tests
   - Erweiterung um kleinere Features
+  - Dokumentation 
+    - Gegenlesen
 - Sebastian Walter
   - Entwurf und Umsetzung der Icons
     - Navigation, Button, Schnelleditierungsmenü
-  - Mini-CD
+  - Diagramme (Klassendiagramm)
+  - Design und Mini-CD
     - Schriftarten, Farbtheme festlegen
     - Logo und Schriftzug entwerfen und umsetzen
   - Erstellen der Dokumentation
