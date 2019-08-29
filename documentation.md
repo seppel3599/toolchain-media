@@ -23,8 +23,6 @@ Das Ziel war die Erstellung einer Web-App, mit welcher die Werkzeuge (Tools) ein
 Das Main-Git-Repo findet man unter: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain) 
 
 Ein zweites Git-Repo für Medieninhalte, Coperate Design, Icons und Sonstiges findet man unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
-
-**@Renick Testseiten-Link ergänzen**
  
 Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Demoseite](https://toolchain.renick.io/) nutzen, die Login-Daten finden Sie in unserer Abgabe-Mail. Für den Fall des lokalen Betriebs bitte die Voraussetzungen in der README beachten. 
 
