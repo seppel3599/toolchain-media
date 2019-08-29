@@ -31,12 +31,12 @@ Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/
 
 ## 2. Titel
 
-Der Name **Toolchain** leitet sich aus der Funktion der App ab: Das Verketten bzw. Zurverfügungstellen von Werkzeugen. Dabei geht es zentral darum, eine Oberfläche zu bieten, welche eine Übersicht über alle Dienste und Werkzeuge einer Firma verfügt. Über diese Verlinkungen lassen sich Tools wie Jira, Confluence, Github etc. auflisten, sowie individuell erläutern. Eine Liste dieser Dienste kann zudem gedruckt werden, auch als PDF über den Browser, um z.B. Neuankömmlingen ein paar Anhaltepunkte zu geben, wo sich was im Unternehmen abspielt. Zum Beispiel die Entwicklung über Github, Bug Tickets und Feature Stories in Jira, ...
+Der Name **Toolchain** leitet sich aus der Funktion der App ab: Verketten bzw. Zurverfügungstellen von Werkzeugen. Dabei geht es zentral darum, eine Oberfläche zu bieten, welche eine Übersicht über alle Dienste und Werkzeuge einer Firma liefert. Über diese Verlinkungen lassen sich Tools wie Jira, Confluence, Github uvm. auflisten, sowie individuell erläutern. Eine Liste dieser Dienste kann gedruckt oder als PDF über den Browser aufgerufen werden, um z.B. Neuankömmlingen den Einstieg zu erleichtern.
 
 
 ## 3. Skizze und Beschreibung
 
-Ein Werkzeug zum Organisieren der in einem Unternehmen genutzten Software, Webseiten und anderer Tools.
+Ein Werkzeug zum organisieren der in einem Unternehmen genutzten Software, Webseiten und anderer Tools.
 Die Objektorientierung findet in PHP statt. Wir nutzen das PHP Framework Laravel und eine simple sqlite-Datenbak. Das Frontend wurde mit JavaScript gebaut.
 
 Mookups zur App, die Mitte Mai 2019 entstanden sind:
@@ -52,7 +52,7 @@ Mookups zur App, die Mitte Mai 2019 entstanden sind:
 ### Mindestumfang
 
 - Web-App mit Laravel:
-  - erstellen, editieren und löschen von Einträgen für Werkzeuge mit Titel, Beschreibung, Bildern, Logos die jeder Nutzer selber anlegen kann
+  - erstellen, editieren und löschen von Einträgen verschiedenster Tools mit Titel, Beschreibung, Bildern und Logos die jeder Nutzer selber anlegen kann
   - Globale Übersicht, kategorisiert
   - Exportfunktion
 
@@ -62,7 +62,7 @@ Mookups zur App, die Mitte Mai 2019 entstanden sind:
 Weiterhin haben wir ebenfalls mögliche Erweiterungen formuliert die bei frühzeitiger Fertigstellung noch umgesetzt werden sollten:
 
 - Login mit Single Sign-On (Google)
-- completly responsive
+- Completly responsive
 - Integration einer personalisierten Suchmaschine mit persönlichen Informationen (Cyberduck, Google)
 
 
@@ -70,34 +70,30 @@ Weiterhin haben wir ebenfalls mögliche Erweiterungen formuliert die bei frühze
 
 **@Renick @Jonas Bitte ergänzen/korrigieren!**
 
-Das Team setzt sich folgendermaßen mit zusammen: 
+Das Team setzt sich folgendermaßen zusammen: 
 
 - Renick Büttner
   - **Teamleitung**
   - Webdevelopment
   - Backend
+  - Dokumentation
 - Jonas Wagner
   - Webdevelopment
   - Frontend
   - Testing
   - Bug fixing
+  - Dokumentation
 - Sebastian Walter
   - Grafiken (Diagramme, Icons, ...)
   - Design (Mini-CD)
-  - Präsentation
+  - Präsentatio
   - Dokumentation
 
 ## 6. Aufgabenverteilung
 
 **@Renick @Jonas Bitte ergänzen/korrigieren!**
 
-Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Das Renick die Aufgaben des 
-Teamleiters/Projektmanagers übernimmt war aufgrund seiner Erfahrung bei solchen Projekten klar. Weiterhin haben Jonas 
-und Renick bereits eingehende Erfahrung mit PHP bzw. direkt mit dem Laravel Framework. So fiel die Programmierung zu 
-Renick und Jonas. Für ein Projekt dieses Umfanges wollten wir weiterhin ungern den Programmieraufwand auf alle 
-Teammitglieder verteilen, um Absprachen und Rückfragen nicht ins unermessliche laufen zu lassen. So fielen die 
-Rahmentätigkeiten zu Sebastian. Der sich im Folgenden um die Gestaltung der App, Design, Dokumentation, Absprachen und 
-auch um die Abgabe kümmerte.
+Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Renick übernahm auf Grund seiner mehrjährigen Entwicklererfahrung die Aufgaben des Teamleiters/Projektmanagers. Da neben Renick auch Jonas über PHP-Grundkenntnisse verfügt, teilten die Beiden sich die Roller des Entwicklers. Für ein Projekt dieses Umfanges wollten wir weiterhin ungern den Programmieraufwand auf alle Teammitglieder verteilen, um Absprachen und Rückfragen nicht ins unermessliche zu steigern. So fielen die Rahmentätigkeiten zu Sebastian. Der sich im Folgenden um die Gestaltung der App, Design, Dokumentation, Absprachen und auch um die Abgabe kümmerte.
 
 ### genaue Aufgabenverteilung:
 
@@ -142,7 +138,7 @@ Im JavaScript-Code gibt es einen API-Client, der zentral mit dem Backend interag
 
 ## 8. Timeline, Milestones
 
-Die Timeline lässt sich am besten über die Github Commits verfolgen.
+Die Timeline lässt sich am besten über die Github Commits & PRs verfolgen.
 
 **@Renick @Jonas Bitte ergänzen/korrigieren!**
 
