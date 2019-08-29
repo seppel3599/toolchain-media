@@ -84,10 +84,10 @@ Das Team setzt sich folgendermaßen zusammen:
   - Bug fixing
   - Dokumentation
 - Sebastian Walter
+  - Dokumentation
   - Grafiken (Diagramme, Icons, ...)
   - Design (Mini-CD)
-  - Präsentatio
-  - Dokumentation
+  - Präsentation
 
 ## 6. Aufgabenverteilung
 
