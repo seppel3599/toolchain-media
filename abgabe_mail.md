@@ -12,7 +12,7 @@ Die Repos haben wir als **Backup** hier nochmal auf "github" verlinkt:
 
 Die App mit Installationsanweisungen (README.md): [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain)
 
-Das Repo für Medieninhalte, Dokumentation, Icons uvm.: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
+Medieninhalte, Dokumentation, Icons uvm.: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
 
 Die Dokumentation finden Sie auch unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media/blob/master/documentation.md)
 
