@@ -66,7 +66,7 @@ Weiterhin haben wir ebenfalls mögliche Erweiterungen formuliert die bei frühze
 
 ## 5. Team-Mitglieder und Entwicklung
 
-**@Renick Bitte ergänzen/korrigieren!**
+**@Renick : Bitte ergänzen/korrigieren!**
 
 Das Team setzt sich folgendermaßen zusammen: 
 
@@ -89,7 +89,7 @@ Das Team setzt sich folgendermaßen zusammen:
 
 ## 6. Aufgabenverteilung
 
-**@Renick Bitte ergänzen/korrigieren!**
+**@Renick : Bitte ergänzen/korrigieren!**
 
 Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Renick übernahm auf Grund seiner mehrjährigen Entwicklererfahrung die Aufgaben des Teamleiters/Projektmanagers. Da neben Renick auch Jonas über PHP-Grundkenntnisse verfügt, teilten die Beiden sich die Roller des Entwicklers. Für ein Projekt dieses Umfanges wollten wir weiterhin ungern den Programmieraufwand auf alle Teammitglieder verteilen, um Absprachen und Rückfragen nicht ins unermessliche zu steigern. So fielen die Rahmentätigkeiten zu Sebastian. Der sich im Folgenden um die Gestaltung der App, Design, Dokumentation, Absprachen und auch um die Abgabe kümmerte.
 
@@ -170,7 +170,7 @@ Die Timeline lässt sich am besten über die Github Commits & PRs verfolgen.
 - Ende August: Letzte Abstimmungen mit Professor Hara
 - Ende August: Abgabe
 
-@Renick @Jonas: erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funktion, 
+@Renick : erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funktion, 
 
 ## 9. Bugs, Verbesserungen
 
