@@ -133,7 +133,7 @@ Die Authentifizierung erfolgt über ein Single Sign-on mit einem Google Account.
 
 Das Backend rendert alle Seiten mithilfe von Blade-Templates, und liefert ein JavaScript-Bundle dazu aus. Alle Inhalte, die auf einer Seite benötigt werden, initialisieren sich dann beim Laden der Seite im Client.
 
-Im JavaScript-Code gibt es einen API-Client, der zentral mit dem Backend interagieren kann. Im Frontend wird das Bootstrap Framework, sowie Axios (Xhttprequest Library) verwendet.
+Im JavaScript-Code gibt es einen API-Client, der zentral mit dem Backend interagieren kann. Im Frontend wird das Bootstrap Framework, sowie Axios (Ajax Library) verwendet.
 
 
 Klassendiagramm der implemetierten Klassen der App
@@ -168,7 +168,7 @@ Die Timeline lässt sich am besten über die Github Commits & PRs verfolgen.
 
 ## 9. Bugs, Verbesserungen
 
-- TinyMCE hat noch keinen Support für die Toolchain-Standardschrift
+- TinyMCE braucht noch eine Konfiguration mit der Toolchain-Standardschrift
 - Verbesserungsvorschlag:   
     - Autocomplete für Kategorien, damit Dopplungen ähnlicher Kategorien vermieden werden
     - Link zum Service auf dessen personalisierter Service Seite
