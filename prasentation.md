@@ -15,19 +15,17 @@
 
 - Jonas Wagner
   - Was hat Jonas gemacht? (1 min; ~3 Folien)
-  - Probleme (4 min; ~3 Folien)
+  - Probleme und Lösungen; geplant als Dialog mit Sebastian (6 min; ~5 Folien)
     - Zeit (Prüfungen, Urlaub, Praxisaufgaben)
     - Absprachen
-    - Aufgabenverteilung
+    - Aufgabenverteilung => Projektmanagment
     - kleine Streitigkeiten
-  
-    
-- Sebastian Walter
-  - Was hat Sebastian gemacht? (1 min; ~3 Folien)
-  - Was haben wir gelernt? / Bewältigung der Probleme und Lösung (4 min; ~4 Folien)
-    - Projektmanagment
     - Arbeit im Team
-    - Streitigkeiten vorbeugen
-    - Zeitmanagment
+  
+  
+- Sebastian Walter
+  - Was hat Sebastian gemacht? (1 min; ~2 Folien)
+  - Was haben wir gelernt? (2 min; ~3 Folien)
+
 
  => 5 Minuten pro Person; mit in die Präsenation!
