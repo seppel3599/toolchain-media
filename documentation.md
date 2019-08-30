@@ -156,10 +156,16 @@ Die Timeline lässt sich am besten über die Github Commits & PRs verfolgen.
 - Erste Commits durch Renick
     - Laravel-Basis importieren
     - Erstellen der Login-Maske
-- 18.Juni: Erstellen eines eigenen Repositories für die Medieninhalte, Dokumentation und Informationen zum Design durch Sebastian ⇒ [Toolchain-Media](https://github.com/seppel3599/toolchain-media)
+- 18.06: Erstellen eines eigenen Repositories für die Medieninhalte, Dokumentation und Informationen zum Design durch Sebastian ⇒ [Toolchain-Media](https://github.com/seppel3599/toolchain-media)
 - Danach folt eine längere Pause aufgrund der Klausurvorbereitung
 - Juli: Entwurf und Umsetzung der Icons durch Sebastian
 - Juli: Fortsetzen der Arbeit an der Web-App durch Renick und Jonas
+- 22.07: Initiale Layout Blade Datei erstellt
+- 05.08: Merge des Google SSO in den Master
+- 15.08: Merge des "Proof of Concepts" in den Master
+- 17.08: Merge WYSIWYG-Editor in den Master
+- 17.08: Merge "Conception Layout" (Mockups strukturell umgesetzt) in den Master
+- 23.08: Umsetzung und Merge des Layoutkonzepts auch optisch
 - Anfang August: Schreiben der Dokumentation
 - Ende August: Letzte Abstimmungen mit Professor Hara
 - Ende August: Abgabe
