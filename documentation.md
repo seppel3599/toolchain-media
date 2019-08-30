@@ -17,12 +17,12 @@
 
 ## 1. Einleitung
 
-Dieses Projekt entstand im Rahmen des Moduls "Objektorientierte Progr. und Entwickl. (3IM-OOP-IM)" des Medieninformatik Studiums im 2. Semester. 
-Das Ziel war die Erstellung einer Web-App, mit welcher die Werkzeuge (Tools) eines Unternehmens erfasst werden können. In Folge dessen kann jeder Mitarbeiter alle genutzten Tools auf einen Blick erfassen und nutzen.
+Das Projekt entstand im Modul "Objektorientierte Progr. und Entwickl. (3IM-OOP-IM)" des Medieninformatik Studiums im 2. Semester. 
+Unser Ziel war die Erstellung einer Web-App, mit welcher alle digitalen Werkzeuge eines Unternehmens erfasst werden können. In Folge dessen kann ein Mitarbeiter die genutzten Tools auf einen Blick einsehen. Zudem können kurze Einführungen oder betriebsbedingte Vorschriften dazu erfasst.
 
-Das Main-Git-Repo findet man unter: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain) 
+Das Software Git-Repo ist hier zu finden: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain) 
 
-Ein zweites Git-Repo für Medieninhalte, Coperate Design, Icons und Sonstiges findet man unter: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
+Die Dokumentation, Medieninhalte, Coperate Design, Icons und ähnliches gibt es in diesem Repo: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
  
 Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Demoseite](https://toolchain.renick.io/) nutzen, die Login-Daten finden Sie in unserer Abgabe-Mail. Für den Fall des lokalen Betriebs bitte die Voraussetzungen in der README beachten. 
 
@@ -49,10 +49,10 @@ Mookups zur App, die Mitte Mai 2019 entstanden sind:
 
 ### Mindestumfang
 
-- Web-App mit Laravel:
+- PHP Web-App auf Laravel-basis:
   - erstellen, editieren und löschen von Einträgen verschiedenster Tools mit Titel, Beschreibung, Bildern und Logos die jeder Nutzer selber anlegen kann
   - Globale Übersicht, kategorisiert
-  - Exportfunktion
+  - Exportfunktion (als Druckvorschau gelöst)
 
 
 ### Mögliche Erweiterungen
@@ -89,15 +89,13 @@ Das Team setzt sich folgendermaßen zusammen:
 
 ## 6. Aufgabenverteilung
 
-**@Renick Bitte ergänzen/korrigieren!**
-
 Bei der Aufgabenverteilung konnten wir uns im allgemeinen ziemlich schnell einigen. Renick übernahm auf Grund seiner mehrjährigen Entwicklererfahrung die Aufgaben des Teamleiters/Projektmanagers. Da neben Renick auch Jonas über PHP-Grundkenntnisse verfügt, teilten die Beiden sich die Roller des Entwicklers. Für ein Projekt dieses Umfanges wollten wir weiterhin ungern den Programmieraufwand auf alle Teammitglieder verteilen, um Absprachen und Rückfragen nicht ins unermessliche zu steigern. So fielen die Rahmentätigkeiten zu Sebastian. Der sich im Folgenden um die Gestaltung der App, Design, Dokumentation, Absprachen und auch um die Abgabe kümmerte.
 
 ### genaue Aufgabenverteilung:
 
 - Renick Büttner
   - Git-Repo
-    - Initialisierung und Verwaltung
+    - Initialisierung, Reviews, Merge-Konflikte lösen
   - Projektmangament - Webdevelopment
     - Aufgaben Definition und Verteilung
   - Entwurf des Prototyps/Mookups
@@ -143,7 +141,6 @@ Klassendiagramm der implemetierten Klassen der App
 ## 8. Timeline, Milestones
 
 Die Timeline lässt sich am besten über die Github Commits & PRs verfolgen.
-
 
 - Anfang Mai: Projektidee durch Renick 
 - Anfang Mai: Projektentwicklung und Definition durch alle
