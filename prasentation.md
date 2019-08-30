@@ -6,8 +6,8 @@
 
 - Renick Büttner  
   - Idee und Motivation (1 min; 1 Folie)
-  - Übersicht (1 min; ~1 Folie)
-  - Was? (2 min; ~1 Folie)
+  - Übersicht (2 min; ~1 Folie)
+  - Was? (1 min; ~1 Folie)
     - Teammitglieder
     - Aufgabenverteilung 
   - Was hat Renick gemacht? (1 min; ~1 Folie) 
