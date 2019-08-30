@@ -162,6 +162,7 @@ Die Timeline lässt sich am besten über die Github Commits & PRs verfolgen.
 - Juli: Fortsetzen der Arbeit an der Web-App durch Renick und Jonas
 - 22.07: Initiale Layout Blade Datei erstellt
 - 05.08: Merge des Google SSO in den Master
+- 13.08: Proof of Concept 
 - 15.08: Merge des "Proof of Concepts" in den Master
 - 17.08: Merge WYSIWYG-Editor in den Master
 - 17.08: Merge "Conception Layout" (Mockups strukturell umgesetzt) in den Master
@@ -170,7 +171,6 @@ Die Timeline lässt sich am besten über die Github Commits & PRs verfolgen.
 - Ende August: Letzte Abstimmungen mit Professor Hara
 - Ende August: Abgabe
 
-@Renick : erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funktion, 
 
 ## 9. Bugs, Verbesserungen
 
