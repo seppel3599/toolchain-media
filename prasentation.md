@@ -5,12 +5,12 @@
 ###Sprechanteile
 
 - Renick Büttner  
-  - Idee und Mutivation (1 min; ~2 Folien)
-  - Übersicht (1 min; ~3 Folien)
-  - Was? (2 min; ~5 Folien)
+  - Idee und Motivation (1 min; 1 Folie)
+  - Übersicht (1 min; ~1 Folie)
+  - Was? (2 min; ~1 Folie)
     - Teammitglieder
-    - Aufgbenverteilung 
-  - Was hat Renick gemacht? (1 min; ~3 Folien) 
+    - Aufgabenverteilung 
+  - Was hat Renick gemacht? (1 min; ~1 Folie) 
 
 
 - Jonas Wagner
