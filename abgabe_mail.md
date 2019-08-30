@@ -20,7 +20,7 @@ Die Kommentare zur Präsentation befinden sich unter [seppel3599/toolchain-media
 
 @ALLE: noch ergänzen
 
-Um auf die [Demoseite](https://toolchain.renick.io/) zugreifen zu können, sind hier die Login-Daten:
+Um auf die [Demoseite](https://toolchain.renick.io/) zugreifen zu können, sind hier die Login-Daten. Leider war die Zeit für ein alternatives Login zu knapp und wir müssen Sie bitten sich mit der Google-Mail-Adresse anzumelden und sich dann auf der Seite damit einzuloggen. Es ist keine elegante Lösung, das ist uns bewusst. 
 - E-Mail-Adresse: 
 - Passwort:
 

@@ -66,8 +66,6 @@ Weiterhin haben wir ebenfalls mögliche Erweiterungen formuliert die bei frühze
 
 ## 5. Team-Mitglieder und Entwicklung
 
-**@Renick Bitte ergänzen/korrigieren!**
-
 Das Team setzt sich folgendermaßen zusammen: 
 
 - Renick Büttner
@@ -153,15 +151,13 @@ Die Timeline lässt sich am besten über die Github Commits & PRs verfolgen.
 - Erste Commits durch Renick
     - Laravel-Basis importieren
     - Erstellen der Login-Maske
-- 18.Juni: Erstellen eines eigenen Repositories für die Medieninhalte, Dokumentation und Informationen zum Design durch Sebastian ⇒ [Toolchain-Media](https://github.com/seppel3599/toolchain-media)
+- 18.06: Erstellen eines eigenen Repositories für die Medieninhalte, Dokumentation und Informationen zum Design durch Sebastian ⇒ [Toolchain-Media](https://github.com/seppel3599/toolchain-media)
 - Danach folt eine längere Pause aufgrund der Klausurvorbereitung
 - Juli: Entwurf und Umsetzung der Icons durch Sebastian
 - Juli: Fortsetzen der Arbeit an der Web-App durch Renick und Jonas
 - Anfang August: Schreiben der Dokumentation
 - Ende August: Letzte Abstimmungen mit Professor Hara
 - Ende August: Abgabe
-
-@Renick @Jonas: erste Lauffähige Version; Laravel-Import; wann, welche Version mit welchen Funktion, 
 
 ## 9. Bugs, Verbesserungen
 
