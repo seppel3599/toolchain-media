@@ -23,7 +23,7 @@ Unser Ziel war die Erstellung einer Web-App, mit welcher alle digitalen Werkzeug
 Das Software Git-Repo ist hier zu finden: [renickbuettner/toolchain](https://github.com/renickbuettner/toolchain) 
 
 Die Dokumentation, Medieninhalte, Coperate Design, Icons und ähnliches gibt es in diesem Repo: [seppel3599/toolchain-media](https://github.com/seppel3599/toolchain-media)
- 
+
 Zum Testen der App kann man die Schrittfolge in der [README](https://github.com/renickbuettner/toolchain/blob/master/readme.md) nachlesen oder die [Demoseite](https://toolchain.renick.io/) nutzen, die Login-Daten finden Sie in unserer Abgabe-Mail. Für den Fall des lokalen Betriebs bitte die Voraussetzungen in der README beachten. 
 
 
@@ -165,4 +165,4 @@ Die Timeline lässt sich am besten über die Github Commits & PRs verfolgen.
 - Verbesserungsvorschlag:   
     - Autocomplete für Kategorien, damit Dopplungen ähnlicher Kategorien vermieden werden
     - Link zum Service auf dessen personalisierter Service Seite
-        
+      
